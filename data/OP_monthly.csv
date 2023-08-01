@@ -1,0 +1,953 @@
+﻿date,Specialty,patients,RSource
+2021-06-30,Thoracic Medicine,1846,C:/R/Scripts/MASTER/admission_prediction/
+2021-06-30,Gastroenterology,1653,C:/R/Scripts/MASTER/admission_prediction/
+2021-06-30,Trauma & Orthopaedics,5183,C:/R/Scripts/MASTER/admission_prediction/
+2021-06-30,Elderly Medicine,72,C:/R/Scripts/MASTER/admission_prediction/
+2021-06-30,Neurosurgery,42,C:/R/Scripts/MASTER/admission_prediction/
+2021-06-30,General Surgery,553,C:/R/Scripts/MASTER/admission_prediction/
+2021-06-30,Community Paediatrics,2086,C:/R/Scripts/MASTER/admission_prediction/
+2021-06-30,Ophthalmology,3488,C:/R/Scripts/MASTER/admission_prediction/
+2021-06-30,Vascular Surgery,159,C:/R/Scripts/MASTER/admission_prediction/
+2021-06-30,Paediatrics,1906,C:/R/Scripts/MASTER/admission_prediction/
+2021-06-30,Gynaecology,222,C:/R/Scripts/MASTER/admission_prediction/
+2021-06-30,Pain Management,554,C:/R/Scripts/MASTER/admission_prediction/
+2021-06-30,Urology,540,C:/R/Scripts/MASTER/admission_prediction/
+2021-06-30,Paediatric Ophthalmology,5,C:/R/Scripts/MASTER/admission_prediction/
+2021-06-30,ENT,2353,C:/R/Scripts/MASTER/admission_prediction/
+2021-06-30,Dermatology,553,C:/R/Scripts/MASTER/admission_prediction/
+2021-06-30,Breast Surgery,274,C:/R/Scripts/MASTER/admission_prediction/
+2021-06-30,Cardiology,184,C:/R/Scripts/MASTER/admission_prediction/
+2021-06-30,Dietetics,436,C:/R/Scripts/MASTER/admission_prediction/
+2021-06-30,Colorectal Surgery,304,C:/R/Scripts/MASTER/admission_prediction/
+2021-06-30,Diabetic Medicine,1369,C:/R/Scripts/MASTER/admission_prediction/
+2021-06-30,General Medicine,100,C:/R/Scripts/MASTER/admission_prediction/
+2021-06-30,Rheumatology,1513,C:/R/Scripts/MASTER/admission_prediction/
+2021-06-30,Oral Surgery,482,C:/R/Scripts/MASTER/admission_prediction/
+2021-06-30,Hepatology,459,C:/R/Scripts/MASTER/admission_prediction/
+2021-06-30,Chemical Pathology,1,C:/R/Scripts/MASTER/admission_prediction/
+2021-06-30,Paediatric Epilepsy,17,C:/R/Scripts/MASTER/admission_prediction/
+2021-06-30,Endocrinology and Metabolic Medicine,78,C:/R/Scripts/MASTER/admission_prediction/
+2021-06-30,Cardiothoracic Surgery,7,C:/R/Scripts/MASTER/admission_prediction/
+2021-06-30,Paediatric Diabetic Medicine,3,C:/R/Scripts/MASTER/admission_prediction/
+2021-06-30,Paediatric Endocrinology,24,C:/R/Scripts/MASTER/admission_prediction/
+2021-06-30,Orthoptics,284,C:/R/Scripts/MASTER/admission_prediction/
+2021-06-30,Paediatric Cardiology,157,C:/R/Scripts/MASTER/admission_prediction/
+2021-06-30,Orthodontics,421,C:/R/Scripts/MASTER/admission_prediction/
+2021-06-30,Physiotherapy,5,C:/R/Scripts/MASTER/admission_prediction/
+2021-06-30,Paediatric Urology,62,C:/R/Scripts/MASTER/admission_prediction/
+2021-06-30,Paediatric Neurology,12,C:/R/Scripts/MASTER/admission_prediction/
+2021-07-31,Thoracic Medicine,1904,C:/R/Scripts/MASTER/admission_prediction/
+2021-07-31,Gynaecology,288,C:/R/Scripts/MASTER/admission_prediction/
+2021-07-31,Gastroenterology,1804,C:/R/Scripts/MASTER/admission_prediction/
+2021-07-31,Trauma & Orthopaedics,5658,C:/R/Scripts/MASTER/admission_prediction/
+2021-07-31,Elderly Medicine,74,C:/R/Scripts/MASTER/admission_prediction/
+2021-07-31,Breast Surgery,321,C:/R/Scripts/MASTER/admission_prediction/
+2021-07-31,Neurosurgery,31,C:/R/Scripts/MASTER/admission_prediction/
+2021-07-31,Cardiology,156,C:/R/Scripts/MASTER/admission_prediction/
+2021-07-31,General Surgery,577,C:/R/Scripts/MASTER/admission_prediction/
+2021-07-31,Community Paediatrics,2006,C:/R/Scripts/MASTER/admission_prediction/
+2021-07-31,Vascular Surgery,127,C:/R/Scripts/MASTER/admission_prediction/
+2021-07-31,Ophthalmology,3329,C:/R/Scripts/MASTER/admission_prediction/
+2021-07-31,Paediatrics,2015,C:/R/Scripts/MASTER/admission_prediction/
+2021-07-31,Pain Management,578,C:/R/Scripts/MASTER/admission_prediction/
+2021-07-31,Urology,580,C:/R/Scripts/MASTER/admission_prediction/
+2021-07-31,Paediatric Ophthalmology,10,C:/R/Scripts/MASTER/admission_prediction/
+2021-07-31,ENT,2409,C:/R/Scripts/MASTER/admission_prediction/
+2021-07-31,Dermatology,498,C:/R/Scripts/MASTER/admission_prediction/
+2021-07-31,Plastic Surgery,1,C:/R/Scripts/MASTER/admission_prediction/
+2021-07-31,Dietetics,441,C:/R/Scripts/MASTER/admission_prediction/
+2021-07-31,Colorectal Surgery,339,C:/R/Scripts/MASTER/admission_prediction/
+2021-07-31,Chemical Pathology,7,C:/R/Scripts/MASTER/admission_prediction/
+2021-07-31,Diabetic Medicine,1563,C:/R/Scripts/MASTER/admission_prediction/
+2021-07-31,Endocrinology and Metabolic Medicine,37,C:/R/Scripts/MASTER/admission_prediction/
+2021-07-31,General Medicine,97,C:/R/Scripts/MASTER/admission_prediction/
+2021-07-31,Rheumatology,1376,C:/R/Scripts/MASTER/admission_prediction/
+2021-07-31,Oral Surgery,503,C:/R/Scripts/MASTER/admission_prediction/
+2021-07-31,Hepatology,467,C:/R/Scripts/MASTER/admission_prediction/
+2021-07-31,Paediatric Epilepsy,16,C:/R/Scripts/MASTER/admission_prediction/
+2021-07-31,Cardiothoracic Surgery,11,C:/R/Scripts/MASTER/admission_prediction/
+2021-07-31,Paediatric Diabetic Medicine,16,C:/R/Scripts/MASTER/admission_prediction/
+2021-07-31,Paediatric Endocrinology,33,C:/R/Scripts/MASTER/admission_prediction/
+2021-07-31,Orthoptics,253,C:/R/Scripts/MASTER/admission_prediction/
+2021-07-31,Paediatric Cardiology,157,C:/R/Scripts/MASTER/admission_prediction/
+2021-07-31,Orthodontics,418,C:/R/Scripts/MASTER/admission_prediction/
+2021-07-31,Physiotherapy,2,C:/R/Scripts/MASTER/admission_prediction/
+2021-07-31,Paediatric Urology,58,C:/R/Scripts/MASTER/admission_prediction/
+2021-07-31,Paediatric Neurology,14,C:/R/Scripts/MASTER/admission_prediction/
+2021-08-31,Thoracic Medicine,2074,C:/R/Scripts/MASTER/admission_prediction/
+2021-08-31,Gynaecology,226,C:/R/Scripts/MASTER/admission_prediction/
+2021-08-31,Gastroenterology,1895,C:/R/Scripts/MASTER/admission_prediction/
+2021-08-31,Trauma & Orthopaedics,5444,C:/R/Scripts/MASTER/admission_prediction/
+2021-08-31,Elderly Medicine,83,C:/R/Scripts/MASTER/admission_prediction/
+2021-08-31,Breast Surgery,288,C:/R/Scripts/MASTER/admission_prediction/
+2021-08-31,Neurosurgery,32,C:/R/Scripts/MASTER/admission_prediction/
+2021-08-31,Cardiology,228,C:/R/Scripts/MASTER/admission_prediction/
+2021-08-31,General Surgery,609,C:/R/Scripts/MASTER/admission_prediction/
+2021-08-31,Community Paediatrics,2060,C:/R/Scripts/MASTER/admission_prediction/
+2021-08-31,Vascular Surgery,146,C:/R/Scripts/MASTER/admission_prediction/
+2021-08-31,Ophthalmology,3511,C:/R/Scripts/MASTER/admission_prediction/
+2021-08-31,Paediatrics,2175,C:/R/Scripts/MASTER/admission_prediction/
+2021-08-31,Pain Management,553,C:/R/Scripts/MASTER/admission_prediction/
+2021-08-31,Urology,257,C:/R/Scripts/MASTER/admission_prediction/
+2021-08-31,Paediatric Ophthalmology,6,C:/R/Scripts/MASTER/admission_prediction/
+2021-08-31,ENT,2190,C:/R/Scripts/MASTER/admission_prediction/
+2021-08-31,Dermatology,539,C:/R/Scripts/MASTER/admission_prediction/
+2021-08-31,Plastic Surgery,16,C:/R/Scripts/MASTER/admission_prediction/
+2021-08-31,Dietetics,441,C:/R/Scripts/MASTER/admission_prediction/
+2021-08-31,Colorectal Surgery,348,C:/R/Scripts/MASTER/admission_prediction/
+2021-08-31,Chemical Pathology,1,C:/R/Scripts/MASTER/admission_prediction/
+2021-08-31,Diabetic Medicine,1662,C:/R/Scripts/MASTER/admission_prediction/
+2021-08-31,General Medicine,93,C:/R/Scripts/MASTER/admission_prediction/
+2021-08-31,Rheumatology,1146,C:/R/Scripts/MASTER/admission_prediction/
+2021-08-31,Endocrinology and Metabolic Medicine,58,C:/R/Scripts/MASTER/admission_prediction/
+2021-08-31,Oral Surgery,551,C:/R/Scripts/MASTER/admission_prediction/
+2021-08-31,Hepatology,428,C:/R/Scripts/MASTER/admission_prediction/
+2021-08-31,Paediatric Epilepsy,14,C:/R/Scripts/MASTER/admission_prediction/
+2021-08-31,Cardiothoracic Surgery,16,C:/R/Scripts/MASTER/admission_prediction/
+2021-08-31,Paediatric Diabetic Medicine,16,C:/R/Scripts/MASTER/admission_prediction/
+2021-08-31,Paediatric Endocrinology,40,C:/R/Scripts/MASTER/admission_prediction/
+2021-08-31,Orthoptics,302,C:/R/Scripts/MASTER/admission_prediction/
+2021-08-31,Paediatric Cardiology,159,C:/R/Scripts/MASTER/admission_prediction/
+2021-08-31,Orthodontics,430,C:/R/Scripts/MASTER/admission_prediction/
+2021-08-31,Physiotherapy,4,C:/R/Scripts/MASTER/admission_prediction/
+2021-08-31,Paediatric Urology,64,C:/R/Scripts/MASTER/admission_prediction/
+2021-08-31,Paediatric Neurology,13,C:/R/Scripts/MASTER/admission_prediction/
+2021-09-30,Thoracic Medicine,1999,C:/R/Scripts/MASTER/admission_prediction/
+2021-09-30,Gastroenterology,1883,C:/R/Scripts/MASTER/admission_prediction/
+2021-09-30,Trauma & Orthopaedics,5347,C:/R/Scripts/MASTER/admission_prediction/
+2021-09-30,Elderly Medicine,95,C:/R/Scripts/MASTER/admission_prediction/
+2021-09-30,Breast Surgery,250,C:/R/Scripts/MASTER/admission_prediction/
+2021-09-30,Ophthalmology,3447,C:/R/Scripts/MASTER/admission_prediction/
+2021-09-30,Neurosurgery,24,C:/R/Scripts/MASTER/admission_prediction/
+2021-09-30,General Surgery,632,C:/R/Scripts/MASTER/admission_prediction/
+2021-09-30,Community Paediatrics,1988,C:/R/Scripts/MASTER/admission_prediction/
+2021-09-30,Vascular Surgery,138,C:/R/Scripts/MASTER/admission_prediction/
+2021-09-30,Paediatrics,2193,C:/R/Scripts/MASTER/admission_prediction/
+2021-09-30,Gynaecology,219,C:/R/Scripts/MASTER/admission_prediction/
+2021-09-30,Pain Management,475,C:/R/Scripts/MASTER/admission_prediction/
+2021-09-30,Urology,300,C:/R/Scripts/MASTER/admission_prediction/
+2021-09-30,ENT,2249,C:/R/Scripts/MASTER/admission_prediction/
+2021-09-30,Dermatology,772,C:/R/Scripts/MASTER/admission_prediction/
+2021-09-30,Plastic Surgery,24,C:/R/Scripts/MASTER/admission_prediction/
+2021-09-30,Cardiology,203,C:/R/Scripts/MASTER/admission_prediction/
+2021-09-30,Dietetics,440,C:/R/Scripts/MASTER/admission_prediction/
+2021-09-30,Colorectal Surgery,346,C:/R/Scripts/MASTER/admission_prediction/
+2021-09-30,Chemical Pathology,5,C:/R/Scripts/MASTER/admission_prediction/
+2021-09-30,Diabetic Medicine,1694,C:/R/Scripts/MASTER/admission_prediction/
+2021-09-30,Paediatric Diabetic Medicine,19,C:/R/Scripts/MASTER/admission_prediction/
+2021-09-30,General Medicine,96,C:/R/Scripts/MASTER/admission_prediction/
+2021-09-30,Rheumatology,929,C:/R/Scripts/MASTER/admission_prediction/
+2021-09-30,Oral Surgery,555,C:/R/Scripts/MASTER/admission_prediction/
+2021-09-30,Hepatology,464,C:/R/Scripts/MASTER/admission_prediction/
+2021-09-30,Paediatric Epilepsy,16,C:/R/Scripts/MASTER/admission_prediction/
+2021-09-30,Endocrinology and Metabolic Medicine,72,C:/R/Scripts/MASTER/admission_prediction/
+2021-09-30,Cardiothoracic Surgery,13,C:/R/Scripts/MASTER/admission_prediction/
+2021-09-30,Paediatric Endocrinology,37,C:/R/Scripts/MASTER/admission_prediction/
+2021-09-30,Orthoptics,352,C:/R/Scripts/MASTER/admission_prediction/
+2021-09-30,Paediatric Cardiology,151,C:/R/Scripts/MASTER/admission_prediction/
+2021-09-30,Orthodontics,364,C:/R/Scripts/MASTER/admission_prediction/
+2021-09-30,Physiotherapy,1,C:/R/Scripts/MASTER/admission_prediction/
+2021-09-30,Paediatric Urology,58,C:/R/Scripts/MASTER/admission_prediction/
+2021-09-30,Paediatric Neurology,14,C:/R/Scripts/MASTER/admission_prediction/
+2021-10-31,Thoracic Medicine,2117,C:/R/Scripts/MASTER/admission_prediction/
+2021-10-31,Gastroenterology,1912,C:/R/Scripts/MASTER/admission_prediction/
+2021-10-31,Trauma & Orthopaedics,5663,C:/R/Scripts/MASTER/admission_prediction/
+2021-10-31,Elderly Medicine,158,C:/R/Scripts/MASTER/admission_prediction/
+2021-10-31,Breast Surgery,276,C:/R/Scripts/MASTER/admission_prediction/
+2021-10-31,Ophthalmology,3493,C:/R/Scripts/MASTER/admission_prediction/
+2021-10-31,Neurosurgery,30,C:/R/Scripts/MASTER/admission_prediction/
+2021-10-31,General Surgery,656,C:/R/Scripts/MASTER/admission_prediction/
+2021-10-31,Community Paediatrics,2023,C:/R/Scripts/MASTER/admission_prediction/
+2021-10-31,Vascular Surgery,160,C:/R/Scripts/MASTER/admission_prediction/
+2021-10-31,Paediatrics,2286,C:/R/Scripts/MASTER/admission_prediction/
+2021-10-31,Gynaecology,262,C:/R/Scripts/MASTER/admission_prediction/
+2021-10-31,Pain Management,441,C:/R/Scripts/MASTER/admission_prediction/
+2021-10-31,Urology,281,C:/R/Scripts/MASTER/admission_prediction/
+2021-10-31,Paediatric Ophthalmology,6,C:/R/Scripts/MASTER/admission_prediction/
+2021-10-31,ENT,2070,C:/R/Scripts/MASTER/admission_prediction/
+2021-10-31,Dermatology,713,C:/R/Scripts/MASTER/admission_prediction/
+2021-10-31,Plastic Surgery,41,C:/R/Scripts/MASTER/admission_prediction/
+2021-10-31,Cardiology,277,C:/R/Scripts/MASTER/admission_prediction/
+2021-10-31,Dietetics,446,C:/R/Scripts/MASTER/admission_prediction/
+2021-10-31,Colorectal Surgery,352,C:/R/Scripts/MASTER/admission_prediction/
+2021-10-31,Chemical Pathology,17,C:/R/Scripts/MASTER/admission_prediction/
+2021-10-31,Diabetic Medicine,1785,C:/R/Scripts/MASTER/admission_prediction/
+2021-10-31,Paediatric Diabetic Medicine,1,C:/R/Scripts/MASTER/admission_prediction/
+2021-10-31,Rheumatology,1036,C:/R/Scripts/MASTER/admission_prediction/
+2021-10-31,Oral Surgery,595,C:/R/Scripts/MASTER/admission_prediction/
+2021-10-31,Hepatology,447,C:/R/Scripts/MASTER/admission_prediction/
+2021-10-31,General Medicine,101,C:/R/Scripts/MASTER/admission_prediction/
+2021-10-31,Paediatric Epilepsy,16,C:/R/Scripts/MASTER/admission_prediction/
+2021-10-31,Endocrinology and Metabolic Medicine,78,C:/R/Scripts/MASTER/admission_prediction/
+2021-10-31,Cardiothoracic Surgery,10,C:/R/Scripts/MASTER/admission_prediction/
+2021-10-31,Paediatric Endocrinology,34,C:/R/Scripts/MASTER/admission_prediction/
+2021-10-31,Orthoptics,325,C:/R/Scripts/MASTER/admission_prediction/
+2021-10-31,Paediatric Cardiology,157,C:/R/Scripts/MASTER/admission_prediction/
+2021-10-31,Orthodontics,436,C:/R/Scripts/MASTER/admission_prediction/
+2021-10-31,Physiotherapy,1,C:/R/Scripts/MASTER/admission_prediction/
+2021-10-31,Paediatric Urology,73,C:/R/Scripts/MASTER/admission_prediction/
+2021-10-31,Rehabilitation,1,C:/R/Scripts/MASTER/admission_prediction/
+2021-10-31,Paediatric Neurology,15,C:/R/Scripts/MASTER/admission_prediction/
+2021-11-30,Thoracic Medicine,2024,C:/R/Scripts/MASTER/admission_prediction/
+2021-11-30,Gynaecology,302,C:/R/Scripts/MASTER/admission_prediction/
+2021-11-30,Trauma & Orthopaedics,5675,C:/R/Scripts/MASTER/admission_prediction/
+2021-11-30,Elderly Medicine,134,C:/R/Scripts/MASTER/admission_prediction/
+2021-11-30,Neurosurgery,24,C:/R/Scripts/MASTER/admission_prediction/
+2021-11-30,General Surgery,693,C:/R/Scripts/MASTER/admission_prediction/
+2021-11-30,Community Paediatrics,1819,C:/R/Scripts/MASTER/admission_prediction/
+2021-11-30,Vascular Surgery,179,C:/R/Scripts/MASTER/admission_prediction/
+2021-11-30,Ophthalmology,3616,C:/R/Scripts/MASTER/admission_prediction/
+2021-11-30,Paediatrics,2228,C:/R/Scripts/MASTER/admission_prediction/
+2021-11-30,Pain Management,434,C:/R/Scripts/MASTER/admission_prediction/
+2021-11-30,Urology,213,C:/R/Scripts/MASTER/admission_prediction/
+2021-11-30,Paediatric Ophthalmology,3,C:/R/Scripts/MASTER/admission_prediction/
+2021-11-30,ENT,2166,C:/R/Scripts/MASTER/admission_prediction/
+2021-11-30,Dermatology,655,C:/R/Scripts/MASTER/admission_prediction/
+2021-11-30,Plastic Surgery,69,C:/R/Scripts/MASTER/admission_prediction/
+2021-11-30,Gastroenterology,1785,C:/R/Scripts/MASTER/admission_prediction/
+2021-11-30,Breast Surgery,227,C:/R/Scripts/MASTER/admission_prediction/
+2021-11-30,Cardiology,345,C:/R/Scripts/MASTER/admission_prediction/
+2021-11-30,Dietetics,442,C:/R/Scripts/MASTER/admission_prediction/
+2021-11-30,Colorectal Surgery,392,C:/R/Scripts/MASTER/admission_prediction/
+2021-11-30,Chemical Pathology,33,C:/R/Scripts/MASTER/admission_prediction/
+2021-11-30,Diabetic Medicine,1870,C:/R/Scripts/MASTER/admission_prediction/
+2021-11-30,Endocrinology and Metabolic Medicine,90,C:/R/Scripts/MASTER/admission_prediction/
+2021-11-30,Rheumatology,1145,C:/R/Scripts/MASTER/admission_prediction/
+2021-11-30,Oral Surgery,642,C:/R/Scripts/MASTER/admission_prediction/
+2021-11-30,Hepatology,459,C:/R/Scripts/MASTER/admission_prediction/
+2021-11-30,General Medicine,88,C:/R/Scripts/MASTER/admission_prediction/
+2021-11-30,Paediatric Epilepsy,6,C:/R/Scripts/MASTER/admission_prediction/
+2021-11-30,Cardiothoracic Surgery,9,C:/R/Scripts/MASTER/admission_prediction/
+2021-11-30,Paediatric Endocrinology,23,C:/R/Scripts/MASTER/admission_prediction/
+2021-11-30,Orthoptics,360,C:/R/Scripts/MASTER/admission_prediction/
+2021-11-30,Paediatric Cardiology,122,C:/R/Scripts/MASTER/admission_prediction/
+2021-11-30,Orthodontics,381,C:/R/Scripts/MASTER/admission_prediction/
+2021-11-30,Physiotherapy,1,C:/R/Scripts/MASTER/admission_prediction/
+2021-11-30,Paediatric Urology,75,C:/R/Scripts/MASTER/admission_prediction/
+2021-11-30,Rehabilitation,5,C:/R/Scripts/MASTER/admission_prediction/
+2021-11-30,Paediatric Neurology,17,C:/R/Scripts/MASTER/admission_prediction/
+2021-12-31,Thoracic Medicine,2220,C:/R/Scripts/MASTER/admission_prediction/
+2021-12-31,Gynaecology,366,C:/R/Scripts/MASTER/admission_prediction/
+2021-12-31,Trauma & Orthopaedics,5825,C:/R/Scripts/MASTER/admission_prediction/
+2021-12-31,Elderly Medicine,178,C:/R/Scripts/MASTER/admission_prediction/
+2021-12-31,Breast Surgery,234,C:/R/Scripts/MASTER/admission_prediction/
+2021-12-31,Neurosurgery,28,C:/R/Scripts/MASTER/admission_prediction/
+2021-12-31,Cardiology,416,C:/R/Scripts/MASTER/admission_prediction/
+2021-12-31,General Surgery,730,C:/R/Scripts/MASTER/admission_prediction/
+2021-12-31,Community Paediatrics,1963,C:/R/Scripts/MASTER/admission_prediction/
+2021-12-31,Vascular Surgery,177,C:/R/Scripts/MASTER/admission_prediction/
+2021-12-31,Ophthalmology,3401,C:/R/Scripts/MASTER/admission_prediction/
+2021-12-31,Paediatrics,2364,C:/R/Scripts/MASTER/admission_prediction/
+2021-12-31,Pain Management,488,C:/R/Scripts/MASTER/admission_prediction/
+2021-12-31,Urology,380,C:/R/Scripts/MASTER/admission_prediction/
+2021-12-31,Paediatric Ophthalmology,4,C:/R/Scripts/MASTER/admission_prediction/
+2021-12-31,ENT,2199,C:/R/Scripts/MASTER/admission_prediction/
+2021-12-31,Dermatology,590,C:/R/Scripts/MASTER/admission_prediction/
+2021-12-31,Plastic Surgery,76,C:/R/Scripts/MASTER/admission_prediction/
+2021-12-31,Gastroenterology,1796,C:/R/Scripts/MASTER/admission_prediction/
+2021-12-31,Dietetics,445,C:/R/Scripts/MASTER/admission_prediction/
+2021-12-31,Colorectal Surgery,435,C:/R/Scripts/MASTER/admission_prediction/
+2021-12-31,Chemical Pathology,42,C:/R/Scripts/MASTER/admission_prediction/
+2021-12-31,Diabetic Medicine,1761,C:/R/Scripts/MASTER/admission_prediction/
+2021-12-31,Endocrinology and Metabolic Medicine,103,C:/R/Scripts/MASTER/admission_prediction/
+2021-12-31,Paediatric Diabetic Medicine,2,C:/R/Scripts/MASTER/admission_prediction/
+2021-12-31,Rheumatology,1058,C:/R/Scripts/MASTER/admission_prediction/
+2021-12-31,Oral Surgery,682,C:/R/Scripts/MASTER/admission_prediction/
+2021-12-31,Hepatology,439,C:/R/Scripts/MASTER/admission_prediction/
+2021-12-31,General Medicine,108,C:/R/Scripts/MASTER/admission_prediction/
+2021-12-31,Paediatric Epilepsy,6,C:/R/Scripts/MASTER/admission_prediction/
+2021-12-31,Cardiothoracic Surgery,11,C:/R/Scripts/MASTER/admission_prediction/
+2021-12-31,Paediatric Endocrinology,25,C:/R/Scripts/MASTER/admission_prediction/
+2021-12-31,Orthoptics,356,C:/R/Scripts/MASTER/admission_prediction/
+2021-12-31,Paediatric Cardiology,121,C:/R/Scripts/MASTER/admission_prediction/
+2021-12-31,Orthodontics,422,C:/R/Scripts/MASTER/admission_prediction/
+2021-12-31,Physiotherapy,13,C:/R/Scripts/MASTER/admission_prediction/
+2021-12-31,Paediatric Urology,82,C:/R/Scripts/MASTER/admission_prediction/
+2021-12-31,Rehabilitation,5,C:/R/Scripts/MASTER/admission_prediction/
+2021-12-31,Paediatric Neurology,19,C:/R/Scripts/MASTER/admission_prediction/
+2022-02-28,Thoracic Medicine,2202,C:/R/Scripts/MASTER/admission_prediction/
+2022-02-28,Trauma & Orthopaedics,4919,C:/R/Scripts/MASTER/admission_prediction/
+2022-02-28,Elderly Medicine,202,C:/R/Scripts/MASTER/admission_prediction/
+2022-02-28,Neurosurgery,26,C:/R/Scripts/MASTER/admission_prediction/
+2022-02-28,Cardiology,453,C:/R/Scripts/MASTER/admission_prediction/
+2022-02-28,General Surgery,763,C:/R/Scripts/MASTER/admission_prediction/
+2022-02-28,Community Paediatrics,1627,C:/R/Scripts/MASTER/admission_prediction/
+2022-02-28,Vascular Surgery,102,C:/R/Scripts/MASTER/admission_prediction/
+2022-02-28,Ophthalmology,2187,C:/R/Scripts/MASTER/admission_prediction/
+2022-02-28,Paediatrics,2389,C:/R/Scripts/MASTER/admission_prediction/
+2022-02-28,Gynaecology,282,C:/R/Scripts/MASTER/admission_prediction/
+2022-02-28,Pain Management,516,C:/R/Scripts/MASTER/admission_prediction/
+2022-02-28,Urology,217,C:/R/Scripts/MASTER/admission_prediction/
+2022-02-28,ENT,2061,C:/R/Scripts/MASTER/admission_prediction/
+2022-02-28,Dermatology,629,C:/R/Scripts/MASTER/admission_prediction/
+2022-02-28,Plastic Surgery,13,C:/R/Scripts/MASTER/admission_prediction/
+2022-02-28,Gastroenterology,1532,C:/R/Scripts/MASTER/admission_prediction/
+2022-02-28,Breast Surgery,320,C:/R/Scripts/MASTER/admission_prediction/
+2022-02-28,Dietetics,455,C:/R/Scripts/MASTER/admission_prediction/
+2022-02-28,Colorectal Surgery,398,C:/R/Scripts/MASTER/admission_prediction/
+2022-02-28,Chemical Pathology,36,C:/R/Scripts/MASTER/admission_prediction/
+2022-02-28,Diabetic Medicine,1650,C:/R/Scripts/MASTER/admission_prediction/
+2022-02-28,Endocrinology and Metabolic Medicine,119,C:/R/Scripts/MASTER/admission_prediction/
+2022-02-28,Paediatric Diabetic Medicine,1,C:/R/Scripts/MASTER/admission_prediction/
+2022-02-28,Rheumatology,964,C:/R/Scripts/MASTER/admission_prediction/
+2022-02-28,Oral Surgery,762,C:/R/Scripts/MASTER/admission_prediction/
+2022-02-28,Hepatology,413,C:/R/Scripts/MASTER/admission_prediction/
+2022-02-28,General Medicine,83,C:/R/Scripts/MASTER/admission_prediction/
+2022-02-28,Paediatric Epilepsy,10,C:/R/Scripts/MASTER/admission_prediction/
+2022-02-28,Cardiothoracic Surgery,17,C:/R/Scripts/MASTER/admission_prediction/
+2022-02-28,Paediatric Endocrinology,28,C:/R/Scripts/MASTER/admission_prediction/
+2022-02-28,Orthoptics,411,C:/R/Scripts/MASTER/admission_prediction/
+2022-02-28,Paediatric Cardiology,134,C:/R/Scripts/MASTER/admission_prediction/
+2022-02-28,Orthodontics,378,C:/R/Scripts/MASTER/admission_prediction/
+2022-02-28,Physiotherapy,23,C:/R/Scripts/MASTER/admission_prediction/
+2022-02-28,Paediatric Urology,87,C:/R/Scripts/MASTER/admission_prediction/
+2022-02-28,Rehabilitation,5,C:/R/Scripts/MASTER/admission_prediction/
+2022-02-28,Paediatric Neurology,23,C:/R/Scripts/MASTER/admission_prediction/
+2022-01-31,Thoracic Medicine,2247,C:/R/Scripts/MASTER/admission_prediction/
+2022-01-31,Trauma & Orthopaedics,5457,C:/R/Scripts/MASTER/admission_prediction/
+2022-01-31,Elderly Medicine,216,C:/R/Scripts/MASTER/admission_prediction/
+2022-01-31,Breast Surgery,250,C:/R/Scripts/MASTER/admission_prediction/
+2022-01-31,Neurosurgery,17,C:/R/Scripts/MASTER/admission_prediction/
+2022-01-31,Cardiology,405,C:/R/Scripts/MASTER/admission_prediction/
+2022-01-31,General Surgery,784,C:/R/Scripts/MASTER/admission_prediction/
+2022-01-31,Community Paediatrics,1914,C:/R/Scripts/MASTER/admission_prediction/
+2022-01-31,Vascular Surgery,135,C:/R/Scripts/MASTER/admission_prediction/
+2022-01-31,Ophthalmology,2546,C:/R/Scripts/MASTER/admission_prediction/
+2022-01-31,Paediatrics,2405,C:/R/Scripts/MASTER/admission_prediction/
+2022-01-31,Gynaecology,290,C:/R/Scripts/MASTER/admission_prediction/
+2022-01-31,Pain Management,496,C:/R/Scripts/MASTER/admission_prediction/
+2022-01-31,Urology,186,C:/R/Scripts/MASTER/admission_prediction/
+2022-01-31,Paediatric Ophthalmology,8,C:/R/Scripts/MASTER/admission_prediction/
+2022-01-31,ENT,2122,C:/R/Scripts/MASTER/admission_prediction/
+2022-01-31,Dermatology,770,C:/R/Scripts/MASTER/admission_prediction/
+2022-01-31,Plastic Surgery,80,C:/R/Scripts/MASTER/admission_prediction/
+2022-01-31,Gastroenterology,1759,C:/R/Scripts/MASTER/admission_prediction/
+2022-01-31,Dietetics,449,C:/R/Scripts/MASTER/admission_prediction/
+2022-01-31,Colorectal Surgery,416,C:/R/Scripts/MASTER/admission_prediction/
+2022-01-31,Chemical Pathology,30,C:/R/Scripts/MASTER/admission_prediction/
+2022-01-31,Diabetic Medicine,1683,C:/R/Scripts/MASTER/admission_prediction/
+2022-01-31,Endocrinology and Metabolic Medicine,109,C:/R/Scripts/MASTER/admission_prediction/
+2022-01-31,Rheumatology,826,C:/R/Scripts/MASTER/admission_prediction/
+2022-01-31,Oral Surgery,712,C:/R/Scripts/MASTER/admission_prediction/
+2022-01-31,Hepatology,403,C:/R/Scripts/MASTER/admission_prediction/
+2022-01-31,General Medicine,95,C:/R/Scripts/MASTER/admission_prediction/
+2022-01-31,Paediatric Epilepsy,9,C:/R/Scripts/MASTER/admission_prediction/
+2022-01-31,Cardiothoracic Surgery,12,C:/R/Scripts/MASTER/admission_prediction/
+2022-01-31,Paediatric Endocrinology,26,C:/R/Scripts/MASTER/admission_prediction/
+2022-01-31,Orthoptics,386,C:/R/Scripts/MASTER/admission_prediction/
+2022-01-31,Paediatric Cardiology,134,C:/R/Scripts/MASTER/admission_prediction/
+2022-01-31,Orthodontics,422,C:/R/Scripts/MASTER/admission_prediction/
+2022-01-31,Physiotherapy,4,C:/R/Scripts/MASTER/admission_prediction/
+2022-01-31,Paediatric Urology,89,C:/R/Scripts/MASTER/admission_prediction/
+2022-01-31,Rehabilitation,5,C:/R/Scripts/MASTER/admission_prediction/
+2022-01-31,Paediatric Neurology,23,C:/R/Scripts/MASTER/admission_prediction/
+2022-03-31,Thoracic Medicine,2305,C:/R/Scripts/MASTER/admission_prediction/
+2022-03-31,Gynaecology,243,C:/R/Scripts/MASTER/admission_prediction/
+2022-03-31,Trauma & Orthopaedics,4788,C:/R/Scripts/MASTER/admission_prediction/
+2022-03-31,Elderly Medicine,244,C:/R/Scripts/MASTER/admission_prediction/
+2022-03-31,Neurosurgery,30,C:/R/Scripts/MASTER/admission_prediction/
+2022-03-31,Cardiology,466,C:/R/Scripts/MASTER/admission_prediction/
+2022-03-31,Community Paediatrics,1863,C:/R/Scripts/MASTER/admission_prediction/
+2022-03-31,Vascular Surgery,93,C:/R/Scripts/MASTER/admission_prediction/
+2022-03-31,Ophthalmology,2061,C:/R/Scripts/MASTER/admission_prediction/
+2022-03-31,Paediatrics,2424,C:/R/Scripts/MASTER/admission_prediction/
+2022-03-31,General Surgery,809,C:/R/Scripts/MASTER/admission_prediction/
+2022-03-31,Pain Management,539,C:/R/Scripts/MASTER/admission_prediction/
+2022-03-31,Urology,284,C:/R/Scripts/MASTER/admission_prediction/
+2022-03-31,Paediatric Ophthalmology,4,C:/R/Scripts/MASTER/admission_prediction/
+2022-03-31,ENT,2068,C:/R/Scripts/MASTER/admission_prediction/
+2022-03-31,Dermatology,595,C:/R/Scripts/MASTER/admission_prediction/
+2022-03-31,Plastic Surgery,22,C:/R/Scripts/MASTER/admission_prediction/
+2022-03-31,Gastroenterology,1562,C:/R/Scripts/MASTER/admission_prediction/
+2022-03-31,Breast Surgery,249,C:/R/Scripts/MASTER/admission_prediction/
+2022-03-31,Dietetics,458,C:/R/Scripts/MASTER/admission_prediction/
+2022-03-31,Colorectal Surgery,442,C:/R/Scripts/MASTER/admission_prediction/
+2022-03-31,Chemical Pathology,17,C:/R/Scripts/MASTER/admission_prediction/
+2022-03-31,Diabetic Medicine,1605,C:/R/Scripts/MASTER/admission_prediction/
+2022-03-31,Endocrinology and Metabolic Medicine,77,C:/R/Scripts/MASTER/admission_prediction/
+2022-03-31,Paediatric Diabetic Medicine,2,C:/R/Scripts/MASTER/admission_prediction/
+2022-03-31,Rheumatology,948,C:/R/Scripts/MASTER/admission_prediction/
+2022-03-31,Oral Surgery,828,C:/R/Scripts/MASTER/admission_prediction/
+2022-03-31,Hepatology,452,C:/R/Scripts/MASTER/admission_prediction/
+2022-03-31,General Medicine,90,C:/R/Scripts/MASTER/admission_prediction/
+2022-03-31,Paediatric Epilepsy,17,C:/R/Scripts/MASTER/admission_prediction/
+2022-03-31,Cardiothoracic Surgery,20,C:/R/Scripts/MASTER/admission_prediction/
+2022-03-31,Paediatric Endocrinology,31,C:/R/Scripts/MASTER/admission_prediction/
+2022-03-31,Orthoptics,454,C:/R/Scripts/MASTER/admission_prediction/
+2022-03-31,Paediatric Cardiology,141,C:/R/Scripts/MASTER/admission_prediction/
+2022-03-31,Orthodontics,335,C:/R/Scripts/MASTER/admission_prediction/
+2022-03-31,Physiotherapy,28,C:/R/Scripts/MASTER/admission_prediction/
+2022-03-31,Paediatric Urology,85,C:/R/Scripts/MASTER/admission_prediction/
+2022-03-31,Rehabilitation,7,C:/R/Scripts/MASTER/admission_prediction/
+2022-03-31,Paediatric Neurology,23,C:/R/Scripts/MASTER/admission_prediction/
+2022-04-30,Thoracic Medicine,2439,C:/R/Scripts/MASTER/admission_prediction/
+2022-04-30,Gynaecology,287,C:/R/Scripts/MASTER/admission_prediction/
+2022-04-30,Trauma & Orthopaedics,5266,C:/R/Scripts/MASTER/admission_prediction/
+2022-04-30,Elderly Medicine,300,C:/R/Scripts/MASTER/admission_prediction/
+2022-04-30,Breast Surgery,337,C:/R/Scripts/MASTER/admission_prediction/
+2022-04-30,Neurosurgery,22,C:/R/Scripts/MASTER/admission_prediction/
+2022-04-30,Cardiology,497,C:/R/Scripts/MASTER/admission_prediction/
+2022-04-30,Community Paediatrics,2062,C:/R/Scripts/MASTER/admission_prediction/
+2022-04-30,Vascular Surgery,112,C:/R/Scripts/MASTER/admission_prediction/
+2022-04-30,Ophthalmology,1933,C:/R/Scripts/MASTER/admission_prediction/
+2022-04-30,Paediatrics,2465,C:/R/Scripts/MASTER/admission_prediction/
+2022-04-30,General Surgery,844,C:/R/Scripts/MASTER/admission_prediction/
+2022-04-30,Pain Management,546,C:/R/Scripts/MASTER/admission_prediction/
+2022-04-30,Urology,431,C:/R/Scripts/MASTER/admission_prediction/
+2022-04-30,Paediatric Ophthalmology,1,C:/R/Scripts/MASTER/admission_prediction/
+2022-04-30,ENT,1871,C:/R/Scripts/MASTER/admission_prediction/
+2022-04-30,Dermatology,553,C:/R/Scripts/MASTER/admission_prediction/
+2022-04-30,Plastic Surgery,30,C:/R/Scripts/MASTER/admission_prediction/
+2022-04-30,Gastroenterology,1604,C:/R/Scripts/MASTER/admission_prediction/
+2022-04-30,Dietetics,456,C:/R/Scripts/MASTER/admission_prediction/
+2022-04-30,Colorectal Surgery,441,C:/R/Scripts/MASTER/admission_prediction/
+2022-04-30,Chemical Pathology,75,C:/R/Scripts/MASTER/admission_prediction/
+2022-04-30,Diabetic Medicine,1635,C:/R/Scripts/MASTER/admission_prediction/
+2022-04-30,Endocrinology and Metabolic Medicine,135,C:/R/Scripts/MASTER/admission_prediction/
+2022-04-30,Paediatric Diabetic Medicine,11,C:/R/Scripts/MASTER/admission_prediction/
+2022-04-30,Rheumatology,1025,C:/R/Scripts/MASTER/admission_prediction/
+2022-04-30,Oral Surgery,845,C:/R/Scripts/MASTER/admission_prediction/
+2022-04-30,Hepatology,502,C:/R/Scripts/MASTER/admission_prediction/
+2022-04-30,General Medicine,79,C:/R/Scripts/MASTER/admission_prediction/
+2022-04-30,Paediatric Epilepsy,17,C:/R/Scripts/MASTER/admission_prediction/
+2022-04-30,Cardiothoracic Surgery,25,C:/R/Scripts/MASTER/admission_prediction/
+2022-04-30,Paediatric Endocrinology,10,C:/R/Scripts/MASTER/admission_prediction/
+2022-04-30,Orthoptics,474,C:/R/Scripts/MASTER/admission_prediction/
+2022-04-30,Paediatric Cardiology,151,C:/R/Scripts/MASTER/admission_prediction/
+2022-04-30,Orthodontics,379,C:/R/Scripts/MASTER/admission_prediction/
+2022-04-30,Physiotherapy,54,C:/R/Scripts/MASTER/admission_prediction/
+2022-04-30,Paediatric Urology,82,C:/R/Scripts/MASTER/admission_prediction/
+2022-04-30,Rehabilitation,9,C:/R/Scripts/MASTER/admission_prediction/
+2022-04-30,Paediatric Neurology,22,C:/R/Scripts/MASTER/admission_prediction/
+2022-05-31,Thoracic Medicine,2572,C:/R/Scripts/MASTER/admission_prediction/
+2022-05-31,Gynaecology,335,C:/R/Scripts/MASTER/admission_prediction/
+2022-05-31,Trauma & Orthopaedics,5841,C:/R/Scripts/MASTER/admission_prediction/
+2022-05-31,Elderly Medicine,347,C:/R/Scripts/MASTER/admission_prediction/
+2022-05-31,Neurosurgery,25,C:/R/Scripts/MASTER/admission_prediction/
+2022-05-31,Cardiology,472,C:/R/Scripts/MASTER/admission_prediction/
+2022-05-31,General Surgery,700,C:/R/Scripts/MASTER/admission_prediction/
+2022-05-31,Community Paediatrics,1972,C:/R/Scripts/MASTER/admission_prediction/
+2022-05-31,Vascular Surgery,23,C:/R/Scripts/MASTER/admission_prediction/
+2022-05-31,Ophthalmology,2061,C:/R/Scripts/MASTER/admission_prediction/
+2022-05-31,Paediatrics,2435,C:/R/Scripts/MASTER/admission_prediction/
+2022-05-31,Pain Management,565,C:/R/Scripts/MASTER/admission_prediction/
+2022-05-31,Urology,557,C:/R/Scripts/MASTER/admission_prediction/
+2022-05-31,Paediatric Ophthalmology,2,C:/R/Scripts/MASTER/admission_prediction/
+2022-05-31,ENT,1894,C:/R/Scripts/MASTER/admission_prediction/
+2022-05-31,Dermatology,438,C:/R/Scripts/MASTER/admission_prediction/
+2022-05-31,Plastic Surgery,23,C:/R/Scripts/MASTER/admission_prediction/
+2022-05-31,Gastroenterology,1669,C:/R/Scripts/MASTER/admission_prediction/
+2022-05-31,Breast Surgery,319,C:/R/Scripts/MASTER/admission_prediction/
+2022-05-31,Dietetics,461,C:/R/Scripts/MASTER/admission_prediction/
+2022-05-31,Colorectal Surgery,458,C:/R/Scripts/MASTER/admission_prediction/
+2022-05-31,Diabetic Medicine,1597,C:/R/Scripts/MASTER/admission_prediction/
+2022-05-31,Paediatric Diabetic Medicine,1,C:/R/Scripts/MASTER/admission_prediction/
+2022-05-31,Rheumatology,1298,C:/R/Scripts/MASTER/admission_prediction/
+2022-05-31,Oral Surgery,869,C:/R/Scripts/MASTER/admission_prediction/
+2022-05-31,Hepatology,522,C:/R/Scripts/MASTER/admission_prediction/
+2022-05-31,Chemical Pathology,118,C:/R/Scripts/MASTER/admission_prediction/
+2022-05-31,General Medicine,91,C:/R/Scripts/MASTER/admission_prediction/
+2022-05-31,Paediatric Epilepsy,7,C:/R/Scripts/MASTER/admission_prediction/
+2022-05-31,Endocrinology and Metabolic Medicine,97,C:/R/Scripts/MASTER/admission_prediction/
+2022-05-31,Cardiothoracic Surgery,7,C:/R/Scripts/MASTER/admission_prediction/
+2022-05-31,Paediatric Endocrinology,15,C:/R/Scripts/MASTER/admission_prediction/
+2022-05-31,Orthoptics,452,C:/R/Scripts/MASTER/admission_prediction/
+2022-05-31,Paediatric Cardiology,155,C:/R/Scripts/MASTER/admission_prediction/
+2022-05-31,Orthodontics,369,C:/R/Scripts/MASTER/admission_prediction/
+2022-05-31,Physiotherapy,41,C:/R/Scripts/MASTER/admission_prediction/
+2022-05-31,Paediatric Urology,80,C:/R/Scripts/MASTER/admission_prediction/
+2022-05-31,Rehabilitation,9,C:/R/Scripts/MASTER/admission_prediction/
+2022-05-31,Paediatric Neurology,24,C:/R/Scripts/MASTER/admission_prediction/
+2022-06-30,Thoracic Medicine,2598,C:/R/Scripts/MASTER/admission_prediction/
+2022-06-30,Gynaecology,403,C:/R/Scripts/MASTER/admission_prediction/
+2022-06-30,Trauma & Orthopaedics,6444,C:/R/Scripts/MASTER/admission_prediction/
+2022-06-30,Elderly Medicine,389,C:/R/Scripts/MASTER/admission_prediction/
+2022-06-30,Breast Surgery,303,C:/R/Scripts/MASTER/admission_prediction/
+2022-06-30,Neurosurgery,34,C:/R/Scripts/MASTER/admission_prediction/
+2022-06-30,General Surgery,733,C:/R/Scripts/MASTER/admission_prediction/
+2022-06-30,Community Paediatrics,2147,C:/R/Scripts/MASTER/admission_prediction/
+2022-06-30,Vascular Surgery,30,C:/R/Scripts/MASTER/admission_prediction/
+2022-06-30,Ophthalmology,2094,C:/R/Scripts/MASTER/admission_prediction/
+2022-06-30,Paediatrics,2469,C:/R/Scripts/MASTER/admission_prediction/
+2022-06-30,Pain Management,575,C:/R/Scripts/MASTER/admission_prediction/
+2022-06-30,Urology,515,C:/R/Scripts/MASTER/admission_prediction/
+2022-06-30,ENT,1903,C:/R/Scripts/MASTER/admission_prediction/
+2022-06-30,Dermatology,381,C:/R/Scripts/MASTER/admission_prediction/
+2022-06-30,Plastic Surgery,45,C:/R/Scripts/MASTER/admission_prediction/
+2022-06-30,Gastroenterology,1680,C:/R/Scripts/MASTER/admission_prediction/
+2022-06-30,Cardiology,477,C:/R/Scripts/MASTER/admission_prediction/
+2022-06-30,Dietetics,445,C:/R/Scripts/MASTER/admission_prediction/
+2022-06-30,Colorectal Surgery,475,C:/R/Scripts/MASTER/admission_prediction/
+2022-06-30,Diabetic Medicine,1604,C:/R/Scripts/MASTER/admission_prediction/
+2022-06-30,Endocrinology and Metabolic Medicine,99,C:/R/Scripts/MASTER/admission_prediction/
+2022-06-30,Paediatric Diabetic Medicine,4,C:/R/Scripts/MASTER/admission_prediction/
+2022-06-30,Rheumatology,1068,C:/R/Scripts/MASTER/admission_prediction/
+2022-06-30,Oral Surgery,687,C:/R/Scripts/MASTER/admission_prediction/
+2022-06-30,Hepatology,541,C:/R/Scripts/MASTER/admission_prediction/
+2022-06-30,Chemical Pathology,176,C:/R/Scripts/MASTER/admission_prediction/
+2022-06-30,General Medicine,95,C:/R/Scripts/MASTER/admission_prediction/
+2022-06-30,Paediatric Epilepsy,12,C:/R/Scripts/MASTER/admission_prediction/
+2022-06-30,Cardiothoracic Surgery,5,C:/R/Scripts/MASTER/admission_prediction/
+2022-06-30,Paediatric Endocrinology,14,C:/R/Scripts/MASTER/admission_prediction/
+2022-06-30,Orthoptics,318,C:/R/Scripts/MASTER/admission_prediction/
+2022-06-30,Paediatric Cardiology,150,C:/R/Scripts/MASTER/admission_prediction/
+2022-06-30,Orthodontics,380,C:/R/Scripts/MASTER/admission_prediction/
+2022-06-30,Physiotherapy,35,C:/R/Scripts/MASTER/admission_prediction/
+2022-06-30,Paediatric Urology,87,C:/R/Scripts/MASTER/admission_prediction/
+2022-06-30,Rehabilitation,15,C:/R/Scripts/MASTER/admission_prediction/
+2022-06-30,Paediatric Neurology,26,C:/R/Scripts/MASTER/admission_prediction/
+2022-07-31,Dermatology,389,C:/R/Scripts/MASTER/admission_prediction/
+2022-07-31,Thoracic Medicine,2612,C:/R/Scripts/MASTER/admission_prediction/
+2022-07-31,Gynaecology,455,C:/R/Scripts/MASTER/admission_prediction/
+2022-07-31,Trauma & Orthopaedics,6790,C:/R/Scripts/MASTER/admission_prediction/
+2022-07-31,Elderly Medicine,432,C:/R/Scripts/MASTER/admission_prediction/
+2022-07-31,Breast Surgery,309,C:/R/Scripts/MASTER/admission_prediction/
+2022-07-31,Neurosurgery,27,C:/R/Scripts/MASTER/admission_prediction/
+2022-07-31,General Surgery,658,C:/R/Scripts/MASTER/admission_prediction/
+2022-07-31,Community Paediatrics,2468,C:/R/Scripts/MASTER/admission_prediction/
+2022-07-31,Vascular Surgery,79,C:/R/Scripts/MASTER/admission_prediction/
+2022-07-31,Ophthalmology,2287,C:/R/Scripts/MASTER/admission_prediction/
+2022-07-31,Paediatrics,2640,C:/R/Scripts/MASTER/admission_prediction/
+2022-07-31,Pain Management,591,C:/R/Scripts/MASTER/admission_prediction/
+2022-07-31,Urology,625,C:/R/Scripts/MASTER/admission_prediction/
+2022-07-31,Paediatric Ophthalmology,1,C:/R/Scripts/MASTER/admission_prediction/
+2022-07-31,ENT,1754,C:/R/Scripts/MASTER/admission_prediction/
+2022-07-31,Plastic Surgery,53,C:/R/Scripts/MASTER/admission_prediction/
+2022-07-31,Gastroenterology,1670,C:/R/Scripts/MASTER/admission_prediction/
+2022-07-31,Cardiology,501,C:/R/Scripts/MASTER/admission_prediction/
+2022-07-31,Dietetics,452,C:/R/Scripts/MASTER/admission_prediction/
+2022-07-31,Colorectal Surgery,454,C:/R/Scripts/MASTER/admission_prediction/
+2022-07-31,Chemical Pathology,256,C:/R/Scripts/MASTER/admission_prediction/
+2022-07-31,Diabetic Medicine,1621,C:/R/Scripts/MASTER/admission_prediction/
+2022-07-31,Endocrinology and Metabolic Medicine,144,C:/R/Scripts/MASTER/admission_prediction/
+2022-07-31,Paediatric Diabetic Medicine,1,C:/R/Scripts/MASTER/admission_prediction/
+2022-07-31,Rheumatology,1348,C:/R/Scripts/MASTER/admission_prediction/
+2022-07-31,Oral Surgery,618,C:/R/Scripts/MASTER/admission_prediction/
+2022-07-31,Hepatology,587,C:/R/Scripts/MASTER/admission_prediction/
+2022-07-31,General Medicine,114,C:/R/Scripts/MASTER/admission_prediction/
+2022-07-31,Paediatric Epilepsy,18,C:/R/Scripts/MASTER/admission_prediction/
+2022-07-31,Cardiothoracic Surgery,12,C:/R/Scripts/MASTER/admission_prediction/
+2022-07-31,Paediatric Endocrinology,28,C:/R/Scripts/MASTER/admission_prediction/
+2022-07-31,Orthoptics,295,C:/R/Scripts/MASTER/admission_prediction/
+2022-07-31,Paediatric Cardiology,144,C:/R/Scripts/MASTER/admission_prediction/
+2022-07-31,Orthodontics,441,C:/R/Scripts/MASTER/admission_prediction/
+2022-07-31,Physiotherapy,111,C:/R/Scripts/MASTER/admission_prediction/
+2022-07-31,Paediatric Urology,90,C:/R/Scripts/MASTER/admission_prediction/
+2022-07-31,Rehabilitation,16,C:/R/Scripts/MASTER/admission_prediction/
+2022-07-31,Paediatric Neurology,24,C:/R/Scripts/MASTER/admission_prediction/
+2022-08-31,Dermatology,314,C:/R/Scripts/MASTER/admission_prediction/
+2022-08-31,Thoracic Medicine,2490,C:/R/Scripts/MASTER/admission_prediction/
+2022-08-31,Gynaecology,515,C:/R/Scripts/MASTER/admission_prediction/
+2022-08-31,Trauma & Orthopaedics,7364,C:/R/Scripts/MASTER/admission_prediction/
+2022-08-31,Elderly Medicine,423,C:/R/Scripts/MASTER/admission_prediction/
+2022-08-31,Breast Surgery,311,C:/R/Scripts/MASTER/admission_prediction/
+2022-08-31,Neurosurgery,22,C:/R/Scripts/MASTER/admission_prediction/
+2022-08-31,General Surgery,686,C:/R/Scripts/MASTER/admission_prediction/
+2022-08-31,Community Paediatrics,2339,C:/R/Scripts/MASTER/admission_prediction/
+2022-08-31,Vascular Surgery,120,C:/R/Scripts/MASTER/admission_prediction/
+2022-08-31,Ophthalmology,2450,C:/R/Scripts/MASTER/admission_prediction/
+2022-08-31,Paediatrics,2543,C:/R/Scripts/MASTER/admission_prediction/
+2022-08-31,Colorectal Surgery,496,C:/R/Scripts/MASTER/admission_prediction/
+2022-08-31,Pain Management,619,C:/R/Scripts/MASTER/admission_prediction/
+2022-08-31,Urology,614,C:/R/Scripts/MASTER/admission_prediction/
+2022-08-31,Paediatric Ophthalmology,1,C:/R/Scripts/MASTER/admission_prediction/
+2022-08-31,ENT,1660,C:/R/Scripts/MASTER/admission_prediction/
+2022-08-31,Plastic Surgery,47,C:/R/Scripts/MASTER/admission_prediction/
+2022-08-31,Diabetic Medicine,1608,C:/R/Scripts/MASTER/admission_prediction/
+2022-08-31,Gastroenterology,1287,C:/R/Scripts/MASTER/admission_prediction/
+2022-08-31,Cardiology,434,C:/R/Scripts/MASTER/admission_prediction/
+2022-08-31,Dietetics,461,C:/R/Scripts/MASTER/admission_prediction/
+2022-08-31,Endocrinology and Metabolic Medicine,146,C:/R/Scripts/MASTER/admission_prediction/
+2022-08-31,Rheumatology,1302,C:/R/Scripts/MASTER/admission_prediction/
+2022-08-31,Oral Surgery,542,C:/R/Scripts/MASTER/admission_prediction/
+2022-08-31,Hepatology,504,C:/R/Scripts/MASTER/admission_prediction/
+2022-08-31,Chemical Pathology,295,C:/R/Scripts/MASTER/admission_prediction/
+2022-08-31,General Medicine,91,C:/R/Scripts/MASTER/admission_prediction/
+2022-08-31,Paediatric Epilepsy,12,C:/R/Scripts/MASTER/admission_prediction/
+2022-08-31,Cardiothoracic Surgery,4,C:/R/Scripts/MASTER/admission_prediction/
+2022-08-31,Paediatric Endocrinology,25,C:/R/Scripts/MASTER/admission_prediction/
+2022-08-31,Orthoptics,366,C:/R/Scripts/MASTER/admission_prediction/
+2022-08-31,Paediatric Cardiology,134,C:/R/Scripts/MASTER/admission_prediction/
+2022-08-31,Orthodontics,386,C:/R/Scripts/MASTER/admission_prediction/
+2022-08-31,Physiotherapy,121,C:/R/Scripts/MASTER/admission_prediction/
+2022-08-31,Paediatric Urology,96,C:/R/Scripts/MASTER/admission_prediction/
+2022-08-31,Rehabilitation,14,C:/R/Scripts/MASTER/admission_prediction/
+2022-08-31,Paediatric Neurology,24,C:/R/Scripts/MASTER/admission_prediction/
+2022-09-30,Dermatology,342,C:/R/Scripts/MASTER/admission_prediction/
+2022-09-30,Thoracic Medicine,2481,C:/R/Scripts/MASTER/admission_prediction/
+2022-09-30,Gynaecology,563,C:/R/Scripts/MASTER/admission_prediction/
+2022-09-30,Trauma & Orthopaedics,7728,C:/R/Scripts/MASTER/admission_prediction/
+2022-09-30,Elderly Medicine,508,C:/R/Scripts/MASTER/admission_prediction/
+2022-09-30,Breast Surgery,315,C:/R/Scripts/MASTER/admission_prediction/
+2022-09-30,Neurosurgery,24,C:/R/Scripts/MASTER/admission_prediction/
+2022-09-30,Cardiology,577,C:/R/Scripts/MASTER/admission_prediction/
+2022-09-30,General Surgery,695,C:/R/Scripts/MASTER/admission_prediction/
+2022-09-30,Community Paediatrics,2644,C:/R/Scripts/MASTER/admission_prediction/
+2022-09-30,Vascular Surgery,150,C:/R/Scripts/MASTER/admission_prediction/
+2022-09-30,Ophthalmology,2548,C:/R/Scripts/MASTER/admission_prediction/
+2022-09-30,Paediatrics,2634,C:/R/Scripts/MASTER/admission_prediction/
+2022-09-30,Pain Management,650,C:/R/Scripts/MASTER/admission_prediction/
+2022-09-30,Urology,527,C:/R/Scripts/MASTER/admission_prediction/
+2022-09-30,ENT,1650,C:/R/Scripts/MASTER/admission_prediction/
+2022-09-30,Plastic Surgery,18,C:/R/Scripts/MASTER/admission_prediction/
+2022-09-30,Diabetic Medicine,1536,C:/R/Scripts/MASTER/admission_prediction/
+2022-09-30,Gastroenterology,1544,C:/R/Scripts/MASTER/admission_prediction/
+2022-09-30,Dietetics,468,C:/R/Scripts/MASTER/admission_prediction/
+2022-09-30,Colorectal Surgery,480,C:/R/Scripts/MASTER/admission_prediction/
+2022-09-30,Endocrinology and Metabolic Medicine,227,C:/R/Scripts/MASTER/admission_prediction/
+2022-09-30,Paediatric Diabetic Medicine,4,C:/R/Scripts/MASTER/admission_prediction/
+2022-09-30,Rheumatology,1313,C:/R/Scripts/MASTER/admission_prediction/
+2022-09-30,Oral Surgery,581,C:/R/Scripts/MASTER/admission_prediction/
+2022-09-30,Hepatology,615,C:/R/Scripts/MASTER/admission_prediction/
+2022-09-30,Chemical Pathology,311,C:/R/Scripts/MASTER/admission_prediction/
+2022-09-30,General Medicine,104,C:/R/Scripts/MASTER/admission_prediction/
+2022-09-30,Paediatric Epilepsy,18,C:/R/Scripts/MASTER/admission_prediction/
+2022-09-30,Cardiothoracic Surgery,8,C:/R/Scripts/MASTER/admission_prediction/
+2022-09-30,Paediatric Endocrinology,15,C:/R/Scripts/MASTER/admission_prediction/
+2022-09-30,Orthoptics,392,C:/R/Scripts/MASTER/admission_prediction/
+2022-09-30,Paediatric Cardiology,142,C:/R/Scripts/MASTER/admission_prediction/
+2022-09-30,Orthodontics,326,C:/R/Scripts/MASTER/admission_prediction/
+2022-09-30,Physiotherapy,127,C:/R/Scripts/MASTER/admission_prediction/
+2022-09-30,Paediatric Urology,102,C:/R/Scripts/MASTER/admission_prediction/
+2022-09-30,Rehabilitation,16,C:/R/Scripts/MASTER/admission_prediction/
+2022-09-30,Paediatric Neurology,22,C:/R/Scripts/MASTER/admission_prediction/
+2022-10-31,Dermatology,324,C:/R/Scripts/MASTER/admission_prediction/
+2022-10-31,Thoracic Medicine,2529,C:/R/Scripts/MASTER/admission_prediction/
+2022-10-31,Gynaecology,562,C:/R/Scripts/MASTER/admission_prediction/
+2022-10-31,Trauma & Orthopaedics,7955,C:/R/Scripts/MASTER/admission_prediction/
+2022-10-31,Elderly Medicine,512,C:/R/Scripts/MASTER/admission_prediction/
+2022-10-31,Breast Surgery,298,C:/R/Scripts/MASTER/admission_prediction/
+2022-10-31,Neurosurgery,21,C:/R/Scripts/MASTER/admission_prediction/
+2022-10-31,Cardiology,637,C:/R/Scripts/MASTER/admission_prediction/
+2022-10-31,General Surgery,683,C:/R/Scripts/MASTER/admission_prediction/
+2022-10-31,Community Paediatrics,2662,C:/R/Scripts/MASTER/admission_prediction/
+2022-10-31,Vascular Surgery,152,C:/R/Scripts/MASTER/admission_prediction/
+2022-10-31,Ophthalmology,2482,C:/R/Scripts/MASTER/admission_prediction/
+2022-10-31,Paediatrics,2703,C:/R/Scripts/MASTER/admission_prediction/
+2022-10-31,Pain Management,686,C:/R/Scripts/MASTER/admission_prediction/
+2022-10-31,Urology,485,C:/R/Scripts/MASTER/admission_prediction/
+2022-10-31,ENT,1592,C:/R/Scripts/MASTER/admission_prediction/
+2022-10-31,Plastic Surgery,18,C:/R/Scripts/MASTER/admission_prediction/
+2022-10-31,Gastroenterology,1513,C:/R/Scripts/MASTER/admission_prediction/
+2022-10-31,Diabetic Medicine,1526,C:/R/Scripts/MASTER/admission_prediction/
+2022-10-31,Dietetics,471,C:/R/Scripts/MASTER/admission_prediction/
+2022-10-31,Colorectal Surgery,487,C:/R/Scripts/MASTER/admission_prediction/
+2022-10-31,Chemical Pathology,321,C:/R/Scripts/MASTER/admission_prediction/
+2022-10-31,Endocrinology and Metabolic Medicine,349,C:/R/Scripts/MASTER/admission_prediction/
+2022-10-31,Rheumatology,1256,C:/R/Scripts/MASTER/admission_prediction/
+2022-10-31,Oral Surgery,601,C:/R/Scripts/MASTER/admission_prediction/
+2022-10-31,Hepatology,616,C:/R/Scripts/MASTER/admission_prediction/
+2022-10-31,General Medicine,84,C:/R/Scripts/MASTER/admission_prediction/
+2022-10-31,Paediatric Epilepsy,21,C:/R/Scripts/MASTER/admission_prediction/
+2022-10-31,Cardiothoracic Surgery,11,C:/R/Scripts/MASTER/admission_prediction/
+2022-10-31,Paediatric Endocrinology,17,C:/R/Scripts/MASTER/admission_prediction/
+2022-10-31,Orthoptics,373,C:/R/Scripts/MASTER/admission_prediction/
+2022-10-31,Paediatric Cardiology,151,C:/R/Scripts/MASTER/admission_prediction/
+2022-10-31,Physiotherapy,93,C:/R/Scripts/MASTER/admission_prediction/
+2022-10-31,Orthodontics,325,C:/R/Scripts/MASTER/admission_prediction/
+2022-10-31,Paediatric Urology,98,C:/R/Scripts/MASTER/admission_prediction/
+2022-10-31,Rehabilitation,17,C:/R/Scripts/MASTER/admission_prediction/
+2022-10-31,Paediatric Neurology,13,C:/R/Scripts/MASTER/admission_prediction/
+2022-11-30,Dermatology,278,C:/R/Scripts/MASTER/admission_prediction/
+2022-11-30,Thoracic Medicine,2603,C:/R/Scripts/MASTER/admission_prediction/
+2022-11-30,Gynaecology,631,C:/R/Scripts/MASTER/admission_prediction/
+2022-11-30,Trauma & Orthopaedics,8023,C:/R/Scripts/MASTER/admission_prediction/
+2022-11-30,Elderly Medicine,515,C:/R/Scripts/MASTER/admission_prediction/
+2022-11-30,Breast Surgery,274,C:/R/Scripts/MASTER/admission_prediction/
+2022-11-30,Neurosurgery,27,C:/R/Scripts/MASTER/admission_prediction/
+2022-11-30,Cardiology,729,C:/R/Scripts/MASTER/admission_prediction/
+2022-11-30,General Surgery,680,C:/R/Scripts/MASTER/admission_prediction/
+2022-11-30,Community Paediatrics,2438,C:/R/Scripts/MASTER/admission_prediction/
+2022-11-30,Vascular Surgery,173,C:/R/Scripts/MASTER/admission_prediction/
+2022-11-30,Ophthalmology,2571,C:/R/Scripts/MASTER/admission_prediction/
+2022-11-30,Paediatrics,2673,C:/R/Scripts/MASTER/admission_prediction/
+2022-11-30,Pain Management,695,C:/R/Scripts/MASTER/admission_prediction/
+2022-11-30,Urology,547,C:/R/Scripts/MASTER/admission_prediction/
+2022-11-30,Paediatric Ophthalmology,2,C:/R/Scripts/MASTER/admission_prediction/
+2022-11-30,ENT,1559,C:/R/Scripts/MASTER/admission_prediction/
+2022-11-30,Plastic Surgery,22,C:/R/Scripts/MASTER/admission_prediction/
+2022-11-30,Diabetic Medicine,1644,C:/R/Scripts/MASTER/admission_prediction/
+2022-11-30,Gastroenterology,1610,C:/R/Scripts/MASTER/admission_prediction/
+2022-11-30,Dietetics,472,C:/R/Scripts/MASTER/admission_prediction/
+2022-11-30,Colorectal Surgery,440,C:/R/Scripts/MASTER/admission_prediction/
+2022-11-30,Chemical Pathology,307,C:/R/Scripts/MASTER/admission_prediction/
+2022-11-30,Endocrinology and Metabolic Medicine,420,C:/R/Scripts/MASTER/admission_prediction/
+2022-11-30,Rheumatology,1212,C:/R/Scripts/MASTER/admission_prediction/
+2022-11-30,Oral Surgery,616,C:/R/Scripts/MASTER/admission_prediction/
+2022-11-30,Hepatology,631,C:/R/Scripts/MASTER/admission_prediction/
+2022-11-30,General Medicine,69,C:/R/Scripts/MASTER/admission_prediction/
+2022-11-30,Paediatric Epilepsy,19,C:/R/Scripts/MASTER/admission_prediction/
+2022-11-30,Cardiothoracic Surgery,5,C:/R/Scripts/MASTER/admission_prediction/
+2022-11-30,Paediatric Endocrinology,18,C:/R/Scripts/MASTER/admission_prediction/
+2022-11-30,Orthoptics,390,C:/R/Scripts/MASTER/admission_prediction/
+2022-11-30,Paediatric Cardiology,145,C:/R/Scripts/MASTER/admission_prediction/
+2022-11-30,Physiotherapy,231,C:/R/Scripts/MASTER/admission_prediction/
+2022-11-30,Orthodontics,169,C:/R/Scripts/MASTER/admission_prediction/
+2022-11-30,Paediatric Urology,92,C:/R/Scripts/MASTER/admission_prediction/
+2022-11-30,Rehabilitation,14,C:/R/Scripts/MASTER/admission_prediction/
+2022-11-30,Paediatric Neurology,12,C:/R/Scripts/MASTER/admission_prediction/
+2022-12-31,Thoracic Medicine,2503,C:/R/Scripts/MASTER/admission_prediction/
+2022-12-31,Gynaecology,716,C:/R/Scripts/MASTER/admission_prediction/
+2022-12-31,Trauma & Orthopaedics,8232,C:/R/Scripts/MASTER/admission_prediction/
+2022-12-31,Breast Surgery,215,C:/R/Scripts/MASTER/admission_prediction/
+2022-12-31,Neurosurgery,26,C:/R/Scripts/MASTER/admission_prediction/
+2022-12-31,Cardiology,751,C:/R/Scripts/MASTER/admission_prediction/
+2022-12-31,General Surgery,699,C:/R/Scripts/MASTER/admission_prediction/
+2022-12-31,Community Paediatrics,2222,C:/R/Scripts/MASTER/admission_prediction/
+2022-12-31,Vascular Surgery,213,C:/R/Scripts/MASTER/admission_prediction/
+2022-12-31,Ophthalmology,2541,C:/R/Scripts/MASTER/admission_prediction/
+2022-12-31,Paediatrics,2569,C:/R/Scripts/MASTER/admission_prediction/
+2022-12-31,Pain Management,477,C:/R/Scripts/MASTER/admission_prediction/
+2022-12-31,Urology,513,C:/R/Scripts/MASTER/admission_prediction/
+2022-12-31,ENT,1492,C:/R/Scripts/MASTER/admission_prediction/
+2022-12-31,Dermatology,276,C:/R/Scripts/MASTER/admission_prediction/
+2022-12-31,Plastic Surgery,11,C:/R/Scripts/MASTER/admission_prediction/
+2022-12-31,Diabetic Medicine,1682,C:/R/Scripts/MASTER/admission_prediction/
+2022-12-31,Gastroenterology,1561,C:/R/Scripts/MASTER/admission_prediction/
+2022-12-31,Dietetics,471,C:/R/Scripts/MASTER/admission_prediction/
+2022-12-31,Chemical Pathology,330,C:/R/Scripts/MASTER/admission_prediction/
+2022-12-31,Endocrinology and Metabolic Medicine,528,C:/R/Scripts/MASTER/admission_prediction/
+2022-12-31,Elderly Medicine,486,C:/R/Scripts/MASTER/admission_prediction/
+2022-12-31,Rheumatology,1148,C:/R/Scripts/MASTER/admission_prediction/
+2022-12-31,Oral Surgery,618,C:/R/Scripts/MASTER/admission_prediction/
+2022-12-31,Hepatology,584,C:/R/Scripts/MASTER/admission_prediction/
+2022-12-31,Colorectal Surgery,442,C:/R/Scripts/MASTER/admission_prediction/
+2022-12-31,General Medicine,76,C:/R/Scripts/MASTER/admission_prediction/
+2022-12-31,Paediatric Epilepsy,18,C:/R/Scripts/MASTER/admission_prediction/
+2022-12-31,Cardiothoracic Surgery,4,C:/R/Scripts/MASTER/admission_prediction/
+2022-12-31,Paediatric Endocrinology,13,C:/R/Scripts/MASTER/admission_prediction/
+2022-12-31,Orthoptics,320,C:/R/Scripts/MASTER/admission_prediction/
+2022-12-31,Paediatric Cardiology,150,C:/R/Scripts/MASTER/admission_prediction/
+2022-12-31,Physiotherapy,163,C:/R/Scripts/MASTER/admission_prediction/
+2022-12-31,Orthodontics,133,C:/R/Scripts/MASTER/admission_prediction/
+2022-12-31,Paediatric Urology,71,C:/R/Scripts/MASTER/admission_prediction/
+2022-12-31,Rehabilitation,10,C:/R/Scripts/MASTER/admission_prediction/
+2022-12-31,Paediatric Neurology,11,C:/R/Scripts/MASTER/admission_prediction/
+2023-01-31,Dermatology,318,C:/R/Scripts/MASTER/admission_prediction/
+2023-01-31,Thoracic Medicine,2262,C:/R/Scripts/MASTER/admission_prediction/
+2023-01-31,Gynaecology,739,C:/R/Scripts/MASTER/admission_prediction/
+2023-01-31,Trauma & Orthopaedics,7718,C:/R/Scripts/MASTER/admission_prediction/
+2023-01-31,Community Paediatrics,2005,C:/R/Scripts/MASTER/admission_prediction/
+2023-01-31,Neurosurgery,22,C:/R/Scripts/MASTER/admission_prediction/
+2023-01-31,General Surgery,690,C:/R/Scripts/MASTER/admission_prediction/
+2023-01-31,Vascular Surgery,242,C:/R/Scripts/MASTER/admission_prediction/
+2023-01-31,Ophthalmology,2466,C:/R/Scripts/MASTER/admission_prediction/
+2023-01-31,Paediatrics,2358,C:/R/Scripts/MASTER/admission_prediction/
+2023-01-31,Pain Management,398,C:/R/Scripts/MASTER/admission_prediction/
+2023-01-31,Paediatric Ophthalmology,2,C:/R/Scripts/MASTER/admission_prediction/
+2023-01-31,ENT,1232,C:/R/Scripts/MASTER/admission_prediction/
+2023-01-31,Plastic Surgery,8,C:/R/Scripts/MASTER/admission_prediction/
+2023-01-31,Diabetic Medicine,1707,C:/R/Scripts/MASTER/admission_prediction/
+2023-01-31,Breast Surgery,158,C:/R/Scripts/MASTER/admission_prediction/
+2023-01-31,Urology,355,C:/R/Scripts/MASTER/admission_prediction/
+2023-01-31,Gastroenterology,1564,C:/R/Scripts/MASTER/admission_prediction/
+2023-01-31,Cardiology,806,C:/R/Scripts/MASTER/admission_prediction/
+2023-01-31,Dietetics,469,C:/R/Scripts/MASTER/admission_prediction/
+2023-01-31,Colorectal Surgery,462,C:/R/Scripts/MASTER/admission_prediction/
+2023-01-31,Chemical Pathology,329,C:/R/Scripts/MASTER/admission_prediction/
+2023-01-31,Endocrinology and Metabolic Medicine,539,C:/R/Scripts/MASTER/admission_prediction/
+2023-01-31,Elderly Medicine,464,C:/R/Scripts/MASTER/admission_prediction/
+2023-01-31,Rheumatology,1049,C:/R/Scripts/MASTER/admission_prediction/
+2023-01-31,Oral Surgery,639,C:/R/Scripts/MASTER/admission_prediction/
+2023-01-31,Hepatology,562,C:/R/Scripts/MASTER/admission_prediction/
+2023-01-31,General Medicine,77,C:/R/Scripts/MASTER/admission_prediction/
+2023-01-31,Paediatric Epilepsy,20,C:/R/Scripts/MASTER/admission_prediction/
+2023-01-31,Cardiothoracic Surgery,7,C:/R/Scripts/MASTER/admission_prediction/
+2023-01-31,Paediatric Endocrinology,16,C:/R/Scripts/MASTER/admission_prediction/
+2023-01-31,Orthoptics,265,C:/R/Scripts/MASTER/admission_prediction/
+2023-01-31,Paediatric Cardiology,139,C:/R/Scripts/MASTER/admission_prediction/
+2023-01-31,Physiotherapy,151,C:/R/Scripts/MASTER/admission_prediction/
+2023-01-31,Orthodontics,65,C:/R/Scripts/MASTER/admission_prediction/
+2023-01-31,Paediatric Urology,76,C:/R/Scripts/MASTER/admission_prediction/
+2023-01-31,Rehabilitation,18,C:/R/Scripts/MASTER/admission_prediction/
+2023-01-31,Paediatric Neurology,11,C:/R/Scripts/MASTER/admission_prediction/
+2023-02-28,Dermatology,375,C:/R/Scripts/MASTER/admission_prediction/
+2023-02-28,Thoracic Medicine,2110,C:/R/Scripts/MASTER/admission_prediction/
+2023-02-28,Gynaecology,787,C:/R/Scripts/MASTER/admission_prediction/
+2023-02-28,Trauma & Orthopaedics,7829,C:/R/Scripts/MASTER/admission_prediction/
+2023-02-28,Breast Surgery,138,C:/R/Scripts/MASTER/admission_prediction/
+2023-02-28,Community Paediatrics,2200,C:/R/Scripts/MASTER/admission_prediction/
+2023-02-28,Neurosurgery,22,C:/R/Scripts/MASTER/admission_prediction/
+2023-02-28,Cardiology,835,C:/R/Scripts/MASTER/admission_prediction/
+2023-02-28,General Surgery,699,C:/R/Scripts/MASTER/admission_prediction/
+2023-02-28,Vascular Surgery,259,C:/R/Scripts/MASTER/admission_prediction/
+2023-02-28,Ophthalmology,2394,C:/R/Scripts/MASTER/admission_prediction/
+2023-02-28,Paediatrics,2577,C:/R/Scripts/MASTER/admission_prediction/
+2023-02-28,Pain Management,475,C:/R/Scripts/MASTER/admission_prediction/
+2023-02-28,Urology,390,C:/R/Scripts/MASTER/admission_prediction/
+2023-02-28,ENT,1320,C:/R/Scripts/MASTER/admission_prediction/
+2023-02-28,Plastic Surgery,9,C:/R/Scripts/MASTER/admission_prediction/
+2023-02-28,Diabetic Medicine,1760,C:/R/Scripts/MASTER/admission_prediction/
+2023-02-28,Gastroenterology,1593,C:/R/Scripts/MASTER/admission_prediction/
+2023-02-28,Dietetics,475,C:/R/Scripts/MASTER/admission_prediction/
+2023-02-28,Colorectal Surgery,455,C:/R/Scripts/MASTER/admission_prediction/
+2023-02-28,Chemical Pathology,349,C:/R/Scripts/MASTER/admission_prediction/
+2023-02-28,Endocrinology and Metabolic Medicine,454,C:/R/Scripts/MASTER/admission_prediction/
+2023-02-28,Elderly Medicine,420,C:/R/Scripts/MASTER/admission_prediction/
+2023-02-28,Rheumatology,1083,C:/R/Scripts/MASTER/admission_prediction/
+2023-02-28,Oral Surgery,665,C:/R/Scripts/MASTER/admission_prediction/
+2023-02-28,Hepatology,538,C:/R/Scripts/MASTER/admission_prediction/
+2023-02-28,General Medicine,88,C:/R/Scripts/MASTER/admission_prediction/
+2023-02-28,Paediatric Epilepsy,15,C:/R/Scripts/MASTER/admission_prediction/
+2023-02-28,Cardiothoracic Surgery,10,C:/R/Scripts/MASTER/admission_prediction/
+2023-02-28,Paediatric Endocrinology,20,C:/R/Scripts/MASTER/admission_prediction/
+2023-02-28,Orthoptics,255,C:/R/Scripts/MASTER/admission_prediction/
+2023-02-28,Paediatric Cardiology,137,C:/R/Scripts/MASTER/admission_prediction/
+2023-02-28,Physiotherapy,202,C:/R/Scripts/MASTER/admission_prediction/
+2023-02-28,Orthodontics,73,C:/R/Scripts/MASTER/admission_prediction/
+2023-02-28,Paediatric Urology,81,C:/R/Scripts/MASTER/admission_prediction/
+2023-02-28,Rehabilitation,24,C:/R/Scripts/MASTER/admission_prediction/
+2023-02-28,Paediatric Neurology,13,C:/R/Scripts/MASTER/admission_prediction/
+2023-03-31,Dermatology,329,C:/R/Scripts/MASTER/admission_prediction/
+2023-03-31,Thoracic Medicine,2263,C:/R/Scripts/MASTER/admission_prediction/
+2023-03-31,Gynaecology,854,C:/R/Scripts/MASTER/admission_prediction/
+2023-03-31,Trauma & Orthopaedics,7742,C:/R/Scripts/MASTER/admission_prediction/
+2023-03-31,Community Paediatrics,2285,C:/R/Scripts/MASTER/admission_prediction/
+2023-03-31,Neurosurgery,29,C:/R/Scripts/MASTER/admission_prediction/
+2023-03-31,Cardiology,857,C:/R/Scripts/MASTER/admission_prediction/
+2023-03-31,General Surgery,706,C:/R/Scripts/MASTER/admission_prediction/
+2023-03-31,Vascular Surgery,311,C:/R/Scripts/MASTER/admission_prediction/
+2023-03-31,Ophthalmology,2209,C:/R/Scripts/MASTER/admission_prediction/
+2023-03-31,Paediatrics,2530,C:/R/Scripts/MASTER/admission_prediction/
+2023-03-31,Pain Management,404,C:/R/Scripts/MASTER/admission_prediction/
+2023-03-31,Urology,431,C:/R/Scripts/MASTER/admission_prediction/
+2023-03-31,Paediatric Ophthalmology,2,C:/R/Scripts/MASTER/admission_prediction/
+2023-03-31,ENT,1260,C:/R/Scripts/MASTER/admission_prediction/
+2023-03-31,Plastic Surgery,8,C:/R/Scripts/MASTER/admission_prediction/
+2023-03-31,Gastroenterology,1581,C:/R/Scripts/MASTER/admission_prediction/
+2023-03-31,Diabetic Medicine,1947,C:/R/Scripts/MASTER/admission_prediction/
+2023-03-31,Breast Surgery,120,C:/R/Scripts/MASTER/admission_prediction/
+2023-03-31,Dietetics,478,C:/R/Scripts/MASTER/admission_prediction/
+2023-03-31,Colorectal Surgery,459,C:/R/Scripts/MASTER/admission_prediction/
+2023-03-31,Chemical Pathology,343,C:/R/Scripts/MASTER/admission_prediction/
+2023-03-31,Endocrinology and Metabolic Medicine,454,C:/R/Scripts/MASTER/admission_prediction/
+2023-03-31,Elderly Medicine,411,C:/R/Scripts/MASTER/admission_prediction/
+2023-03-31,Rheumatology,1178,C:/R/Scripts/MASTER/admission_prediction/
+2023-03-31,Oral Surgery,682,C:/R/Scripts/MASTER/admission_prediction/
+2023-03-31,Hepatology,523,C:/R/Scripts/MASTER/admission_prediction/
+2023-03-31,General Medicine,97,C:/R/Scripts/MASTER/admission_prediction/
+2023-03-31,Paediatric Epilepsy,17,C:/R/Scripts/MASTER/admission_prediction/
+2023-03-31,Cardiothoracic Surgery,8,C:/R/Scripts/MASTER/admission_prediction/
+2023-03-31,Paediatric Endocrinology,15,C:/R/Scripts/MASTER/admission_prediction/
+2023-03-31,Orthoptics,173,C:/R/Scripts/MASTER/admission_prediction/
+2023-03-31,Paediatric Cardiology,138,C:/R/Scripts/MASTER/admission_prediction/
+2023-03-31,Physiotherapy,97,C:/R/Scripts/MASTER/admission_prediction/
+2023-03-31,Orthodontics,116,C:/R/Scripts/MASTER/admission_prediction/
+2023-03-31,Paediatric Urology,77,C:/R/Scripts/MASTER/admission_prediction/
+2023-03-31,Rehabilitation,24,C:/R/Scripts/MASTER/admission_prediction/
+2023-03-31,Paediatric Neurology,13,C:/R/Scripts/MASTER/admission_prediction/
+2023-04-30,Dermatology,391,C:/R/Scripts/MASTER/admission_prediction/
+2023-04-30,Thoracic Medicine,2182,C:/R/Scripts/MASTER/admission_prediction/
+2023-04-30,Gynaecology,886,C:/R/Scripts/MASTER/admission_prediction/
+2023-04-30,Trauma & Orthopaedics,7744,C:/R/Scripts/MASTER/admission_prediction/
+2023-04-30,Elderly Medicine,464,C:/R/Scripts/MASTER/admission_prediction/
+2023-04-30,Community Paediatrics,2442,C:/R/Scripts/MASTER/admission_prediction/
+2023-04-30,Neurosurgery,41,C:/R/Scripts/MASTER/admission_prediction/
+2023-04-30,Cardiology,953,C:/R/Scripts/MASTER/admission_prediction/
+2023-04-30,General Surgery,740,C:/R/Scripts/MASTER/admission_prediction/
+2023-04-30,Vascular Surgery,325,C:/R/Scripts/MASTER/admission_prediction/
+2023-04-30,Ophthalmology,2235,C:/R/Scripts/MASTER/admission_prediction/
+2023-04-30,Paediatrics,2633,C:/R/Scripts/MASTER/admission_prediction/
+2023-04-30,Pain Management,448,C:/R/Scripts/MASTER/admission_prediction/
+2023-04-30,Urology,504,C:/R/Scripts/MASTER/admission_prediction/
+2023-04-30,ENT,1281,C:/R/Scripts/MASTER/admission_prediction/
+2023-04-30,Plastic Surgery,4,C:/R/Scripts/MASTER/admission_prediction/
+2023-04-30,Gastroenterology,1638,C:/R/Scripts/MASTER/admission_prediction/
+2023-04-30,Diabetic Medicine,2020,C:/R/Scripts/MASTER/admission_prediction/
+2023-04-30,Breast Surgery,124,C:/R/Scripts/MASTER/admission_prediction/
+2023-04-30,Dietetics,478,C:/R/Scripts/MASTER/admission_prediction/
+2023-04-30,Colorectal Surgery,464,C:/R/Scripts/MASTER/admission_prediction/
+2023-04-30,Chemical Pathology,363,C:/R/Scripts/MASTER/admission_prediction/
+2023-04-30,Endocrinology and Metabolic Medicine,510,C:/R/Scripts/MASTER/admission_prediction/
+2023-04-30,Rheumatology,1292,C:/R/Scripts/MASTER/admission_prediction/
+2023-04-30,Oral Surgery,697,C:/R/Scripts/MASTER/admission_prediction/
+2023-04-30,Hepatology,519,C:/R/Scripts/MASTER/admission_prediction/
+2023-04-30,General Medicine,98,C:/R/Scripts/MASTER/admission_prediction/
+2023-04-30,Paediatric Epilepsy,19,C:/R/Scripts/MASTER/admission_prediction/
+2023-04-30,Cardiothoracic Surgery,6,C:/R/Scripts/MASTER/admission_prediction/
+2023-04-30,Paediatric Endocrinology,20,C:/R/Scripts/MASTER/admission_prediction/
+2023-04-30,Orthoptics,263,C:/R/Scripts/MASTER/admission_prediction/
+2023-04-30,Paediatric Cardiology,151,C:/R/Scripts/MASTER/admission_prediction/
+2023-04-30,Orthodontics,103,C:/R/Scripts/MASTER/admission_prediction/
+2023-04-30,Physiotherapy,179,C:/R/Scripts/MASTER/admission_prediction/
+2023-04-30,Paediatric Urology,76,C:/R/Scripts/MASTER/admission_prediction/
+2023-04-30,Rehabilitation,27,C:/R/Scripts/MASTER/admission_prediction/
+2023-04-30,Paediatric Neurology,13,C:/R/Scripts/MASTER/admission_prediction/
+2023-04-30,Occupational Therapy,1,C:/R/Scripts/MASTER/admission_prediction/
+2023-06-30,Dermatology,480,C:/R/Scripts/MASTER/admission_prediction/
+2023-06-30,Thoracic Medicine,2046,C:/R/Scripts/MASTER/admission_prediction/
+2023-06-30,Gynaecology,949,C:/R/Scripts/MASTER/admission_prediction/
+2023-06-30,Trauma & Orthopaedics,7641,C:/R/Scripts/MASTER/admission_prediction/
+2023-06-30,Elderly Medicine,469,C:/R/Scripts/MASTER/admission_prediction/
+2023-06-30,Community Paediatrics,2539,C:/R/Scripts/MASTER/admission_prediction/
+2023-06-30,Neurosurgery,32,C:/R/Scripts/MASTER/admission_prediction/
+2023-06-30,Cardiology,973,C:/R/Scripts/MASTER/admission_prediction/
+2023-06-30,General Surgery,799,C:/R/Scripts/MASTER/admission_prediction/
+2023-06-30,Vascular Surgery,345,C:/R/Scripts/MASTER/admission_prediction/
+2023-06-30,Ophthalmology,2165,C:/R/Scripts/MASTER/admission_prediction/
+2023-06-30,Paediatrics,2654,C:/R/Scripts/MASTER/admission_prediction/
+2023-06-30,Pain Management,500,C:/R/Scripts/MASTER/admission_prediction/
+2023-06-30,Urology,436,C:/R/Scripts/MASTER/admission_prediction/
+2023-06-30,ENT,1517,C:/R/Scripts/MASTER/admission_prediction/
+2023-06-30,Plastic Surgery,29,C:/R/Scripts/MASTER/admission_prediction/
+2023-06-30,Diabetic Medicine,2016,C:/R/Scripts/MASTER/admission_prediction/
+2023-06-30,Breast Surgery,155,C:/R/Scripts/MASTER/admission_prediction/
+2023-06-30,Gastroenterology,1533,C:/R/Scripts/MASTER/admission_prediction/
+2023-06-30,Dietetics,481,C:/R/Scripts/MASTER/admission_prediction/
+2023-06-30,Colorectal Surgery,574,C:/R/Scripts/MASTER/admission_prediction/
+2023-06-30,Chemical Pathology,329,C:/R/Scripts/MASTER/admission_prediction/
+2023-06-30,Endocrinology and Metabolic Medicine,544,C:/R/Scripts/MASTER/admission_prediction/
+2023-06-30,Rheumatology,1284,C:/R/Scripts/MASTER/admission_prediction/
+2023-06-30,Oral Surgery,746,C:/R/Scripts/MASTER/admission_prediction/
+2023-06-30,Hepatology,462,C:/R/Scripts/MASTER/admission_prediction/
+2023-06-30,General Medicine,98,C:/R/Scripts/MASTER/admission_prediction/
+2023-06-30,Paediatric Epilepsy,8,C:/R/Scripts/MASTER/admission_prediction/
+2023-06-30,Cardiothoracic Surgery,2,C:/R/Scripts/MASTER/admission_prediction/
+2023-06-30,Paediatric Endocrinology,21,C:/R/Scripts/MASTER/admission_prediction/
+2023-06-30,Orthoptics,189,C:/R/Scripts/MASTER/admission_prediction/
+2023-06-30,Paediatric Cardiology,136,C:/R/Scripts/MASTER/admission_prediction/
+2023-06-30,Physiotherapy,212,C:/R/Scripts/MASTER/admission_prediction/
+2023-06-30,Orthodontics,3,C:/R/Scripts/MASTER/admission_prediction/
+2023-06-30,Paediatric Urology,69,C:/R/Scripts/MASTER/admission_prediction/
+2023-06-30,Rehabilitation,20,C:/R/Scripts/MASTER/admission_prediction/
+2023-06-30,Paediatric Neurology,12,C:/R/Scripts/MASTER/admission_prediction/
+2023-06-30,Occupational Therapy,1,C:/R/Scripts/MASTER/admission_prediction/
+2023-05-31,Dermatology,460,C:/R/Scripts/MASTER/admission_prediction/
+2023-05-31,Thoracic Medicine,2069,C:/R/Scripts/MASTER/admission_prediction/
+2023-05-31,Gynaecology,950,C:/R/Scripts/MASTER/admission_prediction/
+2023-05-31,Trauma & Orthopaedics,7462,C:/R/Scripts/MASTER/admission_prediction/
+2023-05-31,Elderly Medicine,426,C:/R/Scripts/MASTER/admission_prediction/
+2023-05-31,Community Paediatrics,2566,C:/R/Scripts/MASTER/admission_prediction/
+2023-05-31,Neurosurgery,34,C:/R/Scripts/MASTER/admission_prediction/
+2023-05-31,Cardiology,936,C:/R/Scripts/MASTER/admission_prediction/
+2023-05-31,General Surgery,770,C:/R/Scripts/MASTER/admission_prediction/
+2023-05-31,Vascular Surgery,324,C:/R/Scripts/MASTER/admission_prediction/
+2023-05-31,Ophthalmology,2258,C:/R/Scripts/MASTER/admission_prediction/
+2023-05-31,Paediatrics,2675,C:/R/Scripts/MASTER/admission_prediction/
+2023-05-31,Pain Management,393,C:/R/Scripts/MASTER/admission_prediction/
+2023-05-31,Urology,467,C:/R/Scripts/MASTER/admission_prediction/
+2023-05-31,ENT,1402,C:/R/Scripts/MASTER/admission_prediction/
+2023-05-31,Plastic Surgery,7,C:/R/Scripts/MASTER/admission_prediction/
+2023-05-31,Diabetic Medicine,1946,C:/R/Scripts/MASTER/admission_prediction/
+2023-05-31,Breast Surgery,94,C:/R/Scripts/MASTER/admission_prediction/
+2023-05-31,Gastroenterology,1569,C:/R/Scripts/MASTER/admission_prediction/
+2023-05-31,Dietetics,484,C:/R/Scripts/MASTER/admission_prediction/
+2023-05-31,Colorectal Surgery,503,C:/R/Scripts/MASTER/admission_prediction/
+2023-05-31,Chemical Pathology,337,C:/R/Scripts/MASTER/admission_prediction/
+2023-05-31,Endocrinology and Metabolic Medicine,512,C:/R/Scripts/MASTER/admission_prediction/
+2023-05-31,Paediatric Diabetic Medicine,3,C:/R/Scripts/MASTER/admission_prediction/
+2023-05-31,Rheumatology,1317,C:/R/Scripts/MASTER/admission_prediction/
+2023-05-31,Oral Surgery,722,C:/R/Scripts/MASTER/admission_prediction/
+2023-05-31,Hepatology,487,C:/R/Scripts/MASTER/admission_prediction/
+2023-05-31,General Medicine,89,C:/R/Scripts/MASTER/admission_prediction/
+2023-05-31,Paediatric Epilepsy,12,C:/R/Scripts/MASTER/admission_prediction/
+2023-05-31,Cardiothoracic Surgery,2,C:/R/Scripts/MASTER/admission_prediction/
+2023-05-31,Paediatric Endocrinology,27,C:/R/Scripts/MASTER/admission_prediction/
+2023-05-31,Orthoptics,194,C:/R/Scripts/MASTER/admission_prediction/
+2023-05-31,Paediatric Cardiology,146,C:/R/Scripts/MASTER/admission_prediction/
+2023-05-31,Physiotherapy,179,C:/R/Scripts/MASTER/admission_prediction/
+2023-05-31,Orthodontics,25,C:/R/Scripts/MASTER/admission_prediction/
+2023-05-31,Paediatric Urology,86,C:/R/Scripts/MASTER/admission_prediction/
+2023-05-31,Rehabilitation,23,C:/R/Scripts/MASTER/admission_prediction/
+2023-05-31,Paediatric Neurology,12,C:/R/Scripts/MASTER/admission_prediction/
+2023-05-31,Occupational Therapy,1,C:/R/Scripts/MASTER/admission_prediction/
