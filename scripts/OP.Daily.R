@@ -1,6 +1,7 @@
-# load packages
+# load packages ----------------------------------------------------------------
 library(librarian)
-shelf(tidyverse, odbc)
+shelf(tidyverse, odbc, here)
+
 
 # connect to sql server --------------------------------------------------------
 con <- DBI::dbConnect(odbc::odbc(),
@@ -11,12 +12,13 @@ con <- DBI::dbConnect(odbc::odbc(),
                       PWD      = "",
                       Port     = 1433)
 
+
 #####
 # pull .csv
-data <- read_csv(here("data/OP_daily.csv")) %>%
-    filter(., speciality == "Trauma & Orthopaedics",
-           outpatient_backlog_flag == 1)
-# read "op_wl" dbo ------------------------------------------------
+# data <- read_csv(here("data/OP_daily.csv")) %>%
+#     filter(., speciality == "Trauma & Orthopaedics",
+#            outpatient_backlog_flag == 1)
+# read "op_wl" dbo -------------------------------------------------------------
 # system.time(data_theatre <- dbReadTable(con, "reporting_outpatient_waitingList"))
 
 # from OP_waitinglist ----------------------------------------------------------
@@ -56,13 +58,20 @@ data <- read_csv(here("data/OP_daily.csv")) %>%
 #            AND DischargeDate IS NOT NULL")
 
 
-#####
-act_test_data <- dbGetQuery(con,
+
+##### 
+# dw sql query -----------------------------------------------------------------
+# activity_data <- dbGetQuery(con,
                             "SELECT *
                             FROM [nhs_reporting].[dbo].[reporting_outpatient_activity]
                             WHERE date_letter_received_dt > getdate() - 365;")
+# write query to csv for ease of loading
+# write_csv(activity_data, here("data/OP_activity.csv"))
+read_csv(activity_data, here("data/OP_activity.csv"))
 
-# filter pulled data
+
+#####
+# filter pulled data -----------------------------------------------------------
 act_filter <- act_test_data |>
     select(calendar_month_year,
            appointment_serial,
@@ -87,12 +96,14 @@ act_filter <- act_test_data |>
     group_by(metric, date) |>
     count() |>
     drop_na() |>
-    filter(date < today())
+    filter(date < today()) |>
+    mutate(month = month(date))
+
 
 # daily metrics
-act_filter |>
-    group_by(metric) |>
-    summarise(test = sum(n) / 365)
+act_metric <- act_filter |>
+    group_by(metric, month) |>
+    summarise(test = sum(n) / n())
 
 # test poisson plot
 plot <- rpois(1000,3.1) |>
@@ -107,7 +118,8 @@ ggplot(data = act_filter, aes(x = date, y = n, fill = metric)) +
     facet_grid(metric ~ ., scales = "fixed") + 
     theme_bw()
 
-# simulation T&O 
+#####
+# simulation T&O ---------------------------------------------------------------
 waiting_list <- function(lambda, patients, days) {
     # null vector vec
     vec <- c()
@@ -117,6 +129,7 @@ waiting_list <- function(lambda, patients, days) {
     # while loop with condition hours != 0
     while (days != 0) {
         # update values
+        date <- seq(today(), by = "day", length.out = days)
         current_patients <- remaining_patients + rpois(1, lambda)
         remaining_patients <- max(current_patients - patients, 0)
         print(paste(current_patients, remaining_patients))
@@ -129,7 +142,7 @@ waiting_list <- function(lambda, patients, days) {
 }
 
 # replicate simulation x times
-answer <- lapply(1:10, function(i) {waiting_list(6.8,7.35,1000)}) |>
+answer <- lapply(1:10, function(i) {waiting_list(6.8,7.35,1000)}) #|>
     as_tibble(.name_repair = "unique") |>
     rowid_to_column("index") |>
     pivot_longer(-"index", names_to = "rep", values_to = "value")
@@ -137,5 +150,9 @@ answer <- lapply(1:10, function(i) {waiting_list(6.8,7.35,1000)}) |>
 # plot simulation paths
 ggplot(answer, aes(x = index, y = value, colour = rep)) +
     geom_line(alpha = 0.6)
-# Build scenario test
+
+# work out each months previous rates and use this for each upcoming month
+# do for all specialty's
+
+
 # Work out distribution of arrivals onto list, removals off list
