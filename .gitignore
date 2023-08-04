@@ -2,3 +2,6 @@
 .Rhistory
 .RData
 .Ruserdata
+OP_daily.csv
+OP_monthly.csv
+OP_activity.csv
