@@ -69,9 +69,13 @@ con <- DBI::dbConnect(odbc::odbc(),
 # write_csv(activity_data, here("data/OP_activity.csv"))
 read_csv(activity_data, here("data/OP_activity.csv"))
 
-
+speciality <- act_test_data %>%
+    distinct(specialty_local_desc) %>%
+    pull(specialty_local_desc)
+act_list <- list()
 #####
 # filter pulled data -----------------------------------------------------------
+for (i in speciality) {
 act_filter <- act_test_data |>
     select(calendar_month_year,
            appointment_serial,
@@ -85,7 +89,7 @@ act_filter <- act_test_data |>
            cancellation_date,
            attend_or_dna_flag) |>
     filter(appointment_type %in% "Follow Up",
-           specialty_local_desc == "CARDIOLOGY") |>
+           specialty_local_desc == i) |>
     select(date_letter_received_dt,
            attendance_date,
            cancellation_date) |>
@@ -97,13 +101,18 @@ act_filter <- act_test_data |>
     count() |>
     drop_na() |>
     filter(date < today()) |>
-    mutate(month = month(date))
+    mutate(month = month(date),
+           spec = i)
 
 
 # daily metrics
 act_metric <- act_filter |>
-    group_by(metric, month) |>
+    group_by(spec, metric, month) |>
     summarise(test = sum(n) / n())
+
+act_list[[paste0(i, "_")]] <- act_metric
+act_keys <- bind_rows(act_list)
+}
 
 # test poisson plot
 plot <- rpois(1000,3.1) |>
@@ -126,10 +135,13 @@ waiting_list <- function(lambda, patients, days) {
     # initialize values as in the code
     current_patients <- 0
     remaining_patients <- 8423
-    date <- seq.Date(today(), by = "day", length.out = 5)
+    date <- today()
     # while loop with condition hours != 0
     while (days != 0) {
         # update values
+        date <- date + 1
+        if(date > today() + 50) {
+           lambda = lambda }
         current_patients <- remaining_patients + rpois(1, lambda)
         remaining_patients <- max(current_patients - patients, 0)
         print(paste(current_patients, remaining_patients))
@@ -138,14 +150,12 @@ waiting_list <- function(lambda, patients, days) {
         days <- days-1;
     }
     # return the vector
-    test <- cbind(vec,as.Date(date))
-    return(test)
+    return(vec)
 }
-?seq.Date
+
 # replicate simulation x times
-answer <- lapply(1:1, function(i) {waiting_list(6.8,7.35,5)}) #|>
-answer
-    as_tibble(.name_repair = "unique")
+answer <- lapply(1:25, function(i) {waiting_list(6.8,7.35,100)}) |>
+    as_tibble(.name_repair = "unique") |>
     rowid_to_column("index") |>
     pivot_longer(-"index", names_to = "rep", values_to = "value")
 
