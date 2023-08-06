@@ -126,10 +126,10 @@ waiting_list <- function(lambda, patients, days) {
     # initialize values as in the code
     current_patients <- 0
     remaining_patients <- 8423
+    date <- seq.Date(today(), by = "day", length.out = 5)
     # while loop with condition hours != 0
     while (days != 0) {
         # update values
-        date <- seq(today(), by = "day", length.out = days)
         current_patients <- remaining_patients + rpois(1, lambda)
         remaining_patients <- max(current_patients - patients, 0)
         print(paste(current_patients, remaining_patients))
@@ -138,12 +138,14 @@ waiting_list <- function(lambda, patients, days) {
         days <- days-1;
     }
     # return the vector
-    return (vec)
+    test <- cbind(vec,as.Date(date))
+    return(test)
 }
-
+?seq.Date
 # replicate simulation x times
-answer <- lapply(1:10, function(i) {waiting_list(6.8,7.35,1000)}) #|>
-    as_tibble(.name_repair = "unique") |>
+answer <- lapply(1:1, function(i) {waiting_list(6.8,7.35,5)}) #|>
+answer
+    as_tibble(.name_repair = "unique")
     rowid_to_column("index") |>
     pivot_longer(-"index", names_to = "rep", values_to = "value")
 
