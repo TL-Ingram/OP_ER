@@ -80,7 +80,7 @@ act_list <- list()
 #####
 # filter pulled data -----------------------------------------------------------
 for (i in speciality) {
-act_filter <- act_test_data #|>
+act_filter <- act_test_data |>
     select(calendar_month_year,
            appointment_serial,
            nhs_number,
@@ -93,11 +93,9 @@ act_filter <- act_test_data #|>
            cancellation_date,
            attend_or_dna_flag,
            appointment_type) |>
-    group_by(appointment_type) |>
-    summarise(count = n())
     filter(appointment_type %in% "Follow Up",
            specialty_local_desc == "CARDIOLOGY") |>
-    mutate(attendance_date = if_else(!is.na(cancellation_date), NA, attendance_date)) #|>
+    mutate(attendance_date = if_else(!is.na(cancellation_date), NA, attendance_date)) |>
     select(date_letter_received_dt,
            DischargeDate) |>
     rename("demand" = date_letter_received_dt,
@@ -121,12 +119,7 @@ act_filter <- act_test_data #|>
 # daily metrics
 act_metric <- act_filter |>
     group_by(spec, metric, month) |>
-    summarise(test = sum(n) / 30)
-
-test <- act_keys |>
-    filter(month == month(today()) -1) |>
-    group_by(metric) |>
-    summarise(average = mean(test))
+    summarise(average = sum(n) / 30)
 
 
 # Calculate the average monthly metrics for Orthopaedic Surgery first
@@ -170,13 +163,13 @@ waiting_list <- function(lambda_demand, capacity, days) {
 
 
 # replicate simulation x times
-answer <- lapply(1:25, function(i) {waiting_list((filter(test, metric == "demand")$average),
-                                                 (filter(test, metric == "capacity")$average),
-                                                 100)}) |>
+answer <- lapply(1:25, function(i) {waiting_list((filter(act_metric, metric == "demand")$average),
+                                                 (filter(act_metric, metric == "capacity")$average),
+                                                 365)}) |>
     as_tibble(.name_repair = "unique") |>
     rowid_to_column("index") |>
     pivot_longer(-"index", names_to = "rep", values_to = "value") |>
-    mutate(spec = i)
+    mutate(spec = "Cardiology")
 
 # pull the last waiting list size and plop that in the remaining_patients
 # plot simulation paths
