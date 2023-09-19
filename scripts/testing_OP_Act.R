@@ -1,8 +1,14 @@
+##### --------------------------------------------------------------------------
+qlik_cardio <- function(q){
 # Pull out vector of initial wl size
 init_size <- read_csv(here("data/OP_monthly.csv")) |>
-    group_by(Specialty) |>
-    filter(date == max(date))
 
+    
+
+specialty <- init_size |>
+    select(Specialty) |>
+    distinct(Specialty) |>
+    pull()
 
 # Outpatient activity qvd
 op_act_qvd <- read_csv(here("data/OP_ACTIVITY_cardio.csv")) |>
@@ -64,10 +70,10 @@ waiting_list <- function(wl_size, lambda_demand, capacity, horizon) {
 
 # replicate simulation x times
 list_sim <- list()
-for (j in speciality) {
+for (j in specialty) {
 answer <- lapply(1:25, function(i) {waiting_list((filter(init_size, Specialty == j)$patients),
-                                                 (filter(act_filter, metric == "demand")$average),
-                                                 (filter(act_filter, metric == "capacity")$average),
+                                                 (filter(act_filter, specialty_spec_code_description == j & metric == "demand")$average),
+                                                 (filter(act_filter, specialty_spec_code_description == j & metric == "capacity")$average),
                                                  180)}) |>
     as_tibble(.name_repair = "unique") |>
     rowid_to_column("index") |>
@@ -82,3 +88,4 @@ wl_sim <- bind_rows(list_sim)
 # plot simulation paths
 ggplot(answer, aes(x = index, y = value, colour = rep)) +
     geom_line(alpha = 0.6)
+}

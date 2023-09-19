@@ -15,13 +15,15 @@ op_monthly <- read_csv(here("data/OP_monthly.csv")) %>%
   # summarise(patients = n()) %>%
   # ungroup(.)
 
+op_act_qvd <- read_csv(here("data/OP_ACTIVITY_cardio.csv")) |>
+  mutate(date_letter_received_dt = date(dmy_hms(date_letter_received_dt)),
+         appointment_dt = date(dmy_hms(appointment_dt)),
+         month = month(date_letter_received_dt)) |>
+  filter(month <= month(today()) -1,
+         appointment_type %in% "Follow Up")
+
 # Pull out character vector of all speciality names from op_monthly
 speciality <- "Cardiology"
-waiting <- op_monthly |>
-  filter(Specialty %in% "Cardiology") |>
-  group_by(Specialty) |>
-  filter(date == max(date)) |>
-  pull(patients)
 
 
 ##### --------------------------------------------------------------------------
