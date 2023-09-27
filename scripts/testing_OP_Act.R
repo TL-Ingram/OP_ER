@@ -1,7 +1,7 @@
 ##### --------------------------------------------------------------------------
 qlik_cardio <- function(q){
 # Pull out vector of initial wl size
-init_size <- read_csv(here("data/OP_monthly.csv")) |>
+init_size <- read_csv(here("data/OP_monthly.csv"))
 
     
 
@@ -86,6 +86,7 @@ wl_sim <- bind_rows(list_sim)
 
 # pull the last waiting list size and plop that in the remaining_patients
 # plot simulation paths
-ggplot(answer, aes(x = index, y = value, colour = rep)) +
-    geom_line(alpha = 0.6)
+# ggplot(wl_sim, aes(x = index, y = value, colour = rep)) +
+#     geom_step(alpha = 0.6)+
+#     facet_wrap(. ~ spec, scales = "free_y")
 }

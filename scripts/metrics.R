@@ -1,5 +1,5 @@
 ##### --------------------------------------------------------------------------
-qlik_cardio <- function(q){
+op_metrics <- function(q){
 # Pull out vector of initial wl size
 # init_size <- read_csv(here("data/OP_monthly.csv")) 
     # Load packages
@@ -36,15 +36,10 @@ op_act_qvd <- op_act |>
     group_by(specialty_spec_code_description, metric) |>
     summarise(average = mean(average))
 
-#####
-# daily metric line plot
-# ggplot(data = act_filter, aes(x = date, y = n, fill = metric)) +
-#     geom_col() +
-#     facet_grid(metric ~ ., scales = "fixed") +
-#     theme_bw()
-#####
 
-waiting_list <- function(wl_size, lambda_demand, capacity, horizon) {
+
+# simulation
+waiting_list_sim <- function(wl_size, lambda_demand, capacity, horizon) {
     # null vector vec
     vec <- c()
     # initialize values as in the code
@@ -65,28 +60,17 @@ waiting_list <- function(wl_size, lambda_demand, capacity, horizon) {
     return(vec)
 }
 
-# list of specs
-specialty <- op_act_qvd |>
-    distinct(specialty_spec_code_description) |>
-    pull()
-j = "Cardiology"
-init_size = 1000 # need to change this
-
 # replicate simulation x times
 list_sim <- list()
-# for (j in specialty) {
-    answer <- lapply(1:2, function(i) {waiting_list((init_size),
-                                                     (filter(op_act_qvd, specialty_spec_code_description == j & metric == "demand")$average),
-                                                     (filter(op_act_qvd, specialty_spec_code_description ==j & metric == "capacity")$average),
-                                                     180)}) |>
-        as_tibble(.name_repair = "unique") |>
-        rowid_to_column("index") |>
-        pivot_longer(c(2:3), names_to = "rep", values_to = "value") |>
-        mutate(spec = j)
+answer <- lapply(1:2, function(i) {waiting_list((1000),
+                                                (filter(q, specialty == "Cardiology" & metric == "demand")$average),
+                                                (filter(q, specialty == "Cardiology" & metric == "capacity")$average),
+                                                180)}) |>
+    as_tibble(.name_repair = "unique") |>
+    rowid_to_column("index") |>
+    pivot_longer(c(2:3), names_to = "rep", values_to = "value") |>
+    mutate(specialty = "Cardiology")
 
-    list_sim[[paste0(j)]] <- answer
-    wl_sim <- bind_rows(list_sim)
-    
-# }
-# return(wl_sim)
+list_sim[[paste0(j)]] <- answer
+wl_sim <- bind_rows(list_sim)
 }

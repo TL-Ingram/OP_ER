@@ -1,5 +1,6 @@
 ##### --------------------------------------------------------------------------
-qlik_cardio <- function(q){
+sim_wl <- function(q, additions_factor, removals_factor, selected_specialty){
+
 # Pull out vector of initial wl size
 # init_size <- read_csv(here("data/OP_monthly.csv")) 
     # Load packages
@@ -7,44 +8,38 @@ qlik_cardio <- function(q){
     library(here)
 
 test <- q
-
 #  Outpatient activity qvd
-# test <- read_csv(here("data/OP_ACTIVITY_cardio.csv"))
+q <- read_csv(here("data/OP_ACTIVITY_cardio.csv"))
 op_act <- test |>
     mutate(date_letter_received_dt = as.Date(date_letter_received_dt, origin = "1900-01-01")) |>
     mutate(appointment_dt = as.Date(appointment_dt, origin = "1900-01-01")) |>
     mutate(month = as.numeric(strftime(date_letter_received_dt, format = "%m", origin = "1900-01-01"))) |>
     filter(appointment_type %in% "Follow Up") |>
-    filter(month <= as.numeric(strftime(today(), format = "%m", origin = "1900-01-01")) - 1) #|>
+    filter(month <= as.numeric(strftime(today(), format = "%m", origin = "1900-01-01")) - 1)
     
 op_act_qvd <- op_act |>
     select(specialty_spec_code_description,
            date_letter_received_dt,
            appointment_dt) |>
     rename("demand" = date_letter_received_dt,
-           "capacity" = appointment_dt) |>
-    pivot_longer(-specialty_spec_code_description, names_to = "metric", values_to = "date") |>
-    group_by(specialty_spec_code_description, metric, date) |>
+           "capacity" = appointment_dt,
+           "specialty" = specialty_spec_code_description) |>
+    pivot_longer(-specialty, names_to = "metric", values_to = "date") |>
+    group_by(specialty, metric, date) |>
     count() |>
     filter(date < today()) |>
     mutate(month = as.numeric(strftime(date, format = "%m", origin = "1900-01-01"))) |>
-    group_by(specialty_spec_code_description, metric, month) |>
+    group_by(specialty, metric, month) |>
     summarise(average = sum(n)/30) |>
     filter(month <= (as.numeric(strftime(today(), format = "%m", origin = "1900-01-01")) - 1) |
                (as.numeric(strftime(today(), format = "%m", origin = "1900-01-01")) - 7)) |>
 # filter(month <= month(today())-1 | month >= month(today() -7)) |>
-    group_by(specialty_spec_code_description, metric) |>
+    group_by(specialty, metric) |>
     summarise(average = mean(average))
 
-#####
-# daily metric line plot
-# ggplot(data = act_filter, aes(x = date, y = n, fill = metric)) +
-#     geom_col() +
-#     facet_grid(metric ~ ., scales = "fixed") +
-#     theme_bw()
-#####
 
-waiting_list <- function(wl_size, lambda_demand, capacity, horizon) {
+# simulation
+waiting_list_sim <- function(wl_size, lambda_demand, capacity, horizon) {
     # null vector vec
     vec <- c()
     # initialize values as in the code
@@ -65,28 +60,19 @@ waiting_list <- function(wl_size, lambda_demand, capacity, horizon) {
     return(vec)
 }
 
-# list of specs
-specialty <- op_act_qvd |>
-    distinct(specialty_spec_code_description) |>
-    pull()
-j = "Cardiology"
-init_size = 1000 # need to change this
-
 # replicate simulation x times
 list_sim <- list()
-# for (j in specialty) {
-    answer <- lapply(1:2, function(i) {waiting_list((init_size),
-                                                     (filter(op_act_qvd, specialty_spec_code_description == j & metric == "demand")$average),
-                                                     (filter(op_act_qvd, specialty_spec_code_description ==j & metric == "capacity")$average),
-                                                     180)}) |>
-        as_tibble(.name_repair = "unique") |>
-        rowid_to_column("index") |>
-        pivot_longer(c(2:3), names_to = "rep", values_to = "value") |>
-        mutate(spec = j)
+answer <- lapply(1:2, function(i) {waiting_list_sim((1000),
+                                                (filter(op_act_qvd, specialty == selected_specialty & metric == "demand")$average),
+                                                (filter(op_act_qvd, specialty == selected_specialty & metric == "capacity")$average),
+                                                180)}) |>
+    as_tibble(.name_repair = "unique") |>
+    rowid_to_column("index") |>
+    pivot_longer(c(2:3), names_to = "rep", values_to = "value") |>
+    mutate(specialty = selected_specialty)
 
-    list_sim[[paste0(j)]] <- answer
-    wl_sim <- bind_rows(list_sim)
-    
-# }
-# return(wl_sim)
+list_sim[[paste0(selected_specialty)]] <- answer
+wl_sim <- bind_rows(list_sim)
+# write.csv(wl_sim, here("data/test.csv"))
 }
+    
