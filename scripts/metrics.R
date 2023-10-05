@@ -9,7 +9,7 @@ op_metrics <- function(q){
 test <- q
 
 #  Outpatient activity qvd
-# test <- read_csv(here("data/OP_ACTIVITY_cardio.csv"))
+test <- read_csv(here("data/OP_ACTIVITY_cardio.csv"))
 op_act <- test |>
     mutate(date_letter_received_dt = as.Date(date_letter_received_dt, origin = "1900-01-01")) |>
     mutate(appointment_dt = as.Date(appointment_dt, origin = "1900-01-01")) |>
@@ -62,15 +62,15 @@ waiting_list_sim <- function(wl_size, lambda_demand, capacity, horizon) {
 
 # replicate simulation x times
 list_sim <- list()
-answer <- lapply(1:2, function(i) {waiting_list((1000),
-                                                (filter(q, specialty == "Cardiology" & metric == "demand")$average),
-                                                (filter(q, specialty == "Cardiology" & metric == "capacity")$average),
+answer <- lapply(1:2, function(i) {waiting_list_sim((1000),
+                                                (filter(op_act_qvd, specialty_spec_code_description == "Gastroenterology" & metric == "demand")$average),
+                                                (filter(op_act_qvd, specialty_spec_code_description == "Gastroenterology" & metric == "capacity")$average),
                                                 180)}) |>
     as_tibble(.name_repair = "unique") |>
     rowid_to_column("index") |>
     pivot_longer(c(2:3), names_to = "rep", values_to = "value") |>
-    mutate(specialty = "Cardiology")
+    mutate(specialty = "Gastroenterology")
 
-list_sim[[paste0(j)]] <- answer
+list_sim[[paste0("Gastroenterology")]] <- answer
 wl_sim <- bind_rows(list_sim)
 }

@@ -37,8 +37,9 @@ op_act_qvd <- op_act |>
 # filter(month <= month(today())-1 | month >= month(today() -7)) |>
     group_by(specialty, metric) |>
     summarise(average = mean(average))
-
-
+additions_factor = 100
+removals_factor = 100
+selected_specialty = "Cardiology"
 # simulation
 waiting_list_sim <- function(wl_size, lambda_demand, capacity, horizon) {
     # null vector vec
@@ -50,8 +51,8 @@ waiting_list_sim <- function(wl_size, lambda_demand, capacity, horizon) {
     # while loop with condition hours != 0
     while (horizon != 0) {
         # update values
-        current_patients <- remaining_patients + rpois(1, lambda_demand)
-        remaining_patients <- max(current_patients - capacity, 0)
+        current_patients <- remaining_patients + rpois(1, lambda_demand*(additions_factor/100))
+        remaining_patients <- max(current_patients - capacity*(removals_factor/100), 0)
         print(paste(current_patients, remaining_patients))
         vec <- c(vec, remaining_patients)
         #update hours
@@ -76,13 +77,12 @@ list_sim[[paste0(selected_specialty)]] <- answer
 wl_sim <- bind_rows(list_sim)
 # write.csv(wl_sim, here("data/test.csv"))
 wl_sim$model = "interactive_rates"
-wl_sim$user = user
+wl_sim$creator = user
 # delete previous results from Warehouse table
 q_rm <-
-    paste0("DELETE from DS_test_op where creator = '",user,"' AND model = 'interactive_rates' AND specialty   = '", specialty_name,"'")
+    paste0("DELETE from DS_test_op where creator = '",user,"' AND model = 'interactive_rates' AND specialty   = '", selected_specialty,"'")
 tryRemove <- hsql(q = q_rm, db = "nhs_datascience", server = "wwldevsqlfrm1")
 print(paste0("Printing any caught errors when deleting: ", tryRemove))
-q_rm
 
 # write results to Warehouse table
 tryWriteResults <- hsqlTable(
@@ -91,7 +91,7 @@ tryWriteResults <- hsqlTable(
     database = "nhs_datascience",
     tablename = "DS_test_op"
 )
+return(wl_sim)
 }
 # sim_wl(q,1,1,"Cardiology")
 # selected_specialty = "Cardiology"
-
