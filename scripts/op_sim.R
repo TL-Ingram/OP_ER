@@ -37,11 +37,13 @@ op_act_qvd <- op_act |>
 # filter(month <= month(today())-1 | month >= month(today() -7)) |>
     group_by(specialty, metric) |>
     summarise(average = mean(average))
-additions_factor = 100
-removals_factor = 100
-selected_specialty = "Cardiology"
+
+additions_factor = as.character(additions_factor)
+# removals_factor = 100
+# selected_specialty = "Cardiology"
+
 # simulation
-waiting_list_sim <- function(wl_size, lambda_demand, capacity, horizon) {
+waiting_list_sim <- function(wl_size, lambda_demand, a_factor, capacity, r_factor, horizon) {
     # null vector vec
     vec <- c()
     # initialize values as in the code
@@ -51,8 +53,8 @@ waiting_list_sim <- function(wl_size, lambda_demand, capacity, horizon) {
     # while loop with condition hours != 0
     while (horizon != 0) {
         # update values
-        current_patients <- remaining_patients + rpois(1, lambda_demand*(additions_factor/100))
-        remaining_patients <- max(current_patients - capacity*(removals_factor/100), 0)
+        current_patients <- remaining_patients + rpois(1, lambda_demand*(a_factor/100))
+        remaining_patients <- max(current_patients - capacity*(r_factor/100), 0)
         print(paste(current_patients, remaining_patients))
         vec <- c(vec, remaining_patients)
         #update hours
@@ -66,7 +68,9 @@ waiting_list_sim <- function(wl_size, lambda_demand, capacity, horizon) {
 list_sim <- list()
 answer <- lapply(1:2, function(i) {waiting_list_sim((1000),
                                                 (filter(op_act_qvd, specialty == selected_specialty & metric == "demand")$average),
+                                                as.numeric(additions_factor),
                                                 (filter(op_act_qvd, specialty == selected_specialty & metric == "capacity")$average),
+                                                as.numeric(removals_factor),
                                                 180)}) |>
     as_tibble(.name_repair = "unique") |>
     rowid_to_column("index") |>
@@ -75,9 +79,13 @@ answer <- lapply(1:2, function(i) {waiting_list_sim((1000),
 
 list_sim[[paste0(selected_specialty)]] <- answer
 wl_sim <- bind_rows(list_sim)
+# ggplot(data = wl_sim, aes(x = index, y = value, colour = rep)) +
+#     geom_step()
+    
 # write.csv(wl_sim, here("data/test.csv"))
 wl_sim$model = "interactive_rates"
 wl_sim$creator = user
+
 # delete previous results from Warehouse table
 q_rm <-
     paste0("DELETE from DS_test_op where creator = '",user,"' AND model = 'interactive_rates' AND specialty   = '", selected_specialty,"'")
