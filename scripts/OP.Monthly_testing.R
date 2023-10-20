@@ -27,7 +27,7 @@ speciality <- op_monthly %>%
   distinct(Specialty) %>%
   pull(Specialty)
 }
-
+speciality = "Trauma & Orthopaedics"
 
 ##### --------------------------------------------------------------------------
 # Define forecast length (each unit is a month)
@@ -142,8 +142,8 @@ yearly_patients <- path_keys %>%
   #           "min" = quantile(.sim, 0.2)) %>%
   ungroup(.) %>%
   bind_rows(., wl_keys) %>%
-  mutate(date = as.Date(date, origin="1899-12-30", format = "%Y/%m/%d")) %>%
-  write_csv(., "//wwlqliksense2/QlikShare/Data/EXCEL/DataScience/Output/OP_forecast.csv")
+  mutate(date = as.Date(date, origin="1899-12-30", format = "%Y/%m/%d")) #%>%
+  # write_csv(., "//wwlqliksense2/QlikShare/Data/EXCEL/DataScience/Output/OP_forecast.csv")
       }
     }
     }
