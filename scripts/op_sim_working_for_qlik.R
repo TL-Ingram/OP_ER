@@ -35,7 +35,7 @@ op_act_qvd <- op_act |>
            appointment_dt) |>
     rename("demand" = date_letter_received_dt,
            "capacity" = appointment_dt,
-           "specialty" = specialty_spec_code_description) #|>
+           "specialty" = specialty_spec_code_description) |>
     pivot_longer(-specialty, names_to = "metric", values_to = "date") |>
     group_by(specialty, metric, date) |>
     count() |>
